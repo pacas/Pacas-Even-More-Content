@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>	
+	<HediffDef>
+		<defName>FrostBurn</defName> 
+		<hediffClass>HediffWithComps</hediffClass> 
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor> 
+		<label>frost burns</label> 
+		<labelNoun>frost burns</labelNoun> 
+		<description>Skin is burning with frost.</description>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>true</isBad>
+		<comps>
+			<li Class="SK.HediffCompProperties_FleshOnly"/>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-5</severityPerDayNotImmune> 
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>initial</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>minor burns</label>
+				<painOffset>0.05</painOffset>
+				<minSeverity>0.04</minSeverity>
+			</li>
+			<li>
+				<label>frost burns</label>
+				<painOffset>0.1</painOffset>
+				<minSeverity>0.2</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>freezing inside</label>
+				<painOffset>0.2</painOffset>
+				<minSeverity>0.40</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.4</offset>
+					</li>
+					<li> 
+						<capacity>Consciousness</capacity>
+						<offset>-0.2</offset> 
+					</li>
+					<li> 
+						<capacity>Moving</capacity>
+						<offset>-0.3</offset> 
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>almost frozen</label>
+				<painOffset>0.5</painOffset>
+				<lifeThreatening>true</lifeThreatening>
+				<minSeverity>0.70</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<setMax>0.40</setMax>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.4</offset>
+					</li>
+					<li> 
+						<capacity>Moving</capacity>
+						<offset>-0.6</offset> 
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+    
+    
+    <HediffDef>
+		<defName>FireBurn</defName> 
+		<hediffClass>HediffWithComps</hediffClass> 
+		<defaultLabelColor>(0.7, 1.0, 0.7)</defaultLabelColor> 
+		<label>flame burns</label> 
+		<labelNoun>flame burns</labelNoun> 
+		<description>Skin is burning with flames.</description>
+		<makesSickThought>false</makesSickThought>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<isBad>true</isBad>
+		<comps>
+			<li Class="SK.HediffCompProperties_FleshOnly"/>
+			<li Class="HediffCompProperties_Immunizable">
+				<severityPerDayNotImmune>-5</severityPerDayNotImmune> 
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<label>initial</label>
+				<becomeVisible>false</becomeVisible>
+			</li>
+			<li>
+				<label>minor burns</label>
+				<painOffset>0.05</painOffset>
+				<minSeverity>0.04</minSeverity>
+			</li>
+			<li>
+				<label>flame burns</label>
+				<painOffset>0.1</painOffset>
+				<minSeverity>0.2</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.2</offset>
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>burning inside</label>
+				<painOffset>0.3</painOffset>
+				<minSeverity>0.40</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<offset>-0.3</offset>
+					</li>
+					<li> 
+						<capacity>Consciousness</capacity>
+						<offset>-0.3</offset> 
+					</li>
+					<li> 
+						<capacity>Moving</capacity>
+						<offset>-0.2</offset> 
+					</li>
+				</capMods>
+			</li>
+			<li>
+				<label>almost burned</label>
+				<painOffset>0.7</painOffset>
+				<lifeThreatening>true</lifeThreatening>
+				<minSeverity>0.80</minSeverity>
+				<capMods>
+					<li>
+						<capacity>Manipulation</capacity>
+						<setMax>0.30</setMax>
+					</li>
+					<li>
+						<capacity>Consciousness</capacity>
+						<offset>-0.5</offset>
+					</li>
+					<li> 
+						<capacity>Moving</capacity>
+						<offset>-0.3</offset> 
+					</li>
+				</capMods>
+			</li>
+		</stages>
+	</HediffDef>
+	
+	
+</Defs>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <FrostBurn.label>ледяные ожоги</FrostBurn.label>
+    <FrostBurn.labelNoun>ледяные ожоги</FrostBurn.labelNoun>
+    <FrostBurn.description>Кожа пылает морозом.</FrostBurn.description>
+    <FrostBurn.stages.0.label>начальные</FrostBurn.stages.0.label>
+    <FrostBurn.stages.1.label>незначительные ожоги</FrostBurn.stages.1.label>
+    <FrostBurn.stages.2.label>ледяные ожоги</FrostBurn.stages.2.label>
+    <FrostBurn.stages.3.label>замерзает изнутри</FrostBurn.stages.3.label>
+    <FrostBurn.stages.4.label>околение</FrostBurn.stages.4.label>
+
+    <FireBurn.label>огненные ожоги</FireBurn.label>
+    <FireBurn.labelNoun>огненные ожоги</FireBurn.labelNoun>
+    <FireBurn.description>Кожа пылает огнем.</FireBurn.description>
+    <FireBurn.stages.0.label>начальные</FireBurn.stages.0.label>
+    <FireBurn.stages.1.label>незначительные ожоги</FireBurn.stages.1.label>
+    <FireBurn.stages.2.label>огненные ожоги</FireBurn.stages.2.label>
+    <FireBurn.stages.3.label>горит изнутри</FireBurn.stages.3.label>
+    <FireBurn.stages.4.label>пылает</FireBurn.stages.4.label>
+
+</LanguageData>

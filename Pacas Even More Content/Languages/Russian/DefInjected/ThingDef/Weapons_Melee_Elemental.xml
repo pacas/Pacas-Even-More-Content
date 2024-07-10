@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <PEMC_FlameGreatSword.label>Пылающий двуручный меч</PEMC_FlameGreatSword.label>
+    <PEMC_FlameGreatSword.description>Этот двуручный меч, с лезвием, пылающим вечным огнем, создан из сердца феникса. Каждый удар не только разит врага, но и оставляет ожоги, благодаря жару, исходящему от меча.</PEMC_FlameGreatSword.description>
+    <PEMC_FlameGreatSword.tools.0.label>навершие</PEMC_FlameGreatSword.tools.0.label>
+    <PEMC_FlameGreatSword.tools.1.label>остриё</PEMC_FlameGreatSword.tools.1.label>
+    <PEMC_FlameGreatSword.tools.2.label>пылающее лезвие</PEMC_FlameGreatSword.tools.2.label>
+
+    <PEMC_FlameKatana.label>Пылающая катана</PEMC_FlameKatana.label>
+    <PEMC_FlameKatana.description>Эта легкая катана, с лезвием, пылающим вечным огнем, создана из сердца феникса. Каждый удар не только разит врага, но и оставляет ожоги, благодаря жару, исходящему от катаны.</PEMC_FlameKatana.description>
+    <PEMC_FlameKatana.tools.0.label>навершие</PEMC_FlameKatana.tools.0.label>
+    <PEMC_FlameKatana.tools.1.label>остриё</PEMC_FlameKatana.tools.1.label>
+    <PEMC_FlameKatana.tools.2.label>пылающее лезвие</PEMC_FlameKatana.tools.2.label>
+
+    <PEMC_FlameSpear.label>Пылающее копьё</PEMC_FlameSpear.label>
+    <PEMC_FlameSpear.description>Это большое копьё, с наконечником, пылающим вечным огнем, создано из сердца феникса. Каждый удар не только разит врага, но и оставляет ожоги, благодаря жару, исходящему от копья.</PEMC_FlameSpear.description>
+    <PEMC_FlameSpear.tools.0.label>древко</PEMC_FlameSpear.tools.0.label>
+    <PEMC_FlameSpear.tools.1.label>пылающий наконечник</PEMC_FlameSpear.tools.1.label>
+    <PEMC_FlameSpear.tools.2.label>пылающее лезвие</PEMC_FlameSpear.tools.2.label>
+
+    <PEMC_FrostGreataxe.label>Ледяная секира</PEMC_FrostGreataxe.label>
+    <PEMC_FrostGreataxe.description>Двуручная секира с лезвием, сделанным из сердца ледяного дракона, испускает ледяное дыхание при каждом ударе. Острое и холодное, оно оставляет ледяные раны на теле врагов.</PEMC_FrostGreataxe.description>
+    <PEMC_FrostGreataxe.tools.0.label>навершие</PEMC_FrostGreataxe.tools.0.label>
+    <PEMC_FrostGreataxe.tools.1.label>ледяное лезвие</PEMC_FrostGreataxe.tools.1.label>
+
+    <PEMC_FrostDagger.label>Ледяной кинжал</PEMC_FrostDagger.label>
+    <PEMC_FrostDagger.description>Небольшой кинжал с лезвием, сделанным из сердца ледяного дракона, испускает ледяное дыхание при каждом ударе. Острое и холодное, оно оставляет ледяные раны на теле врагов.</PEMC_FrostDagger.description>
+    <PEMC_FrostDagger.tools.0.label>навершие</PEMC_FrostDagger.tools.0.label>
+    <PEMC_FrostDagger.tools.1.label>ледяное лезвие</PEMC_FrostDagger.tools.1.label>
+    <PEMC_FrostDagger.tools.2.label>остриё</PEMC_FrostDagger.tools.2.label>
+
+    <PEMC_FrostRapier.label>Ледяная рапира</PEMC_FrostRapier.label>
+    <PEMC_FrostRapier.description>Рапира с лезвием, сделанным из сердца ледяного дракона, испускает ледяное дыхание при каждом ударе. Острое и холодное, оно оставляет ледяные раны на теле врагов.</PEMC_FrostRapier.description>
+    <PEMC_FrostRapier.tools.0.label>навершие</PEMC_FrostRapier.tools.0.label>
+    <PEMC_FrostRapier.tools.1.label>ледяное лезвие</PEMC_FrostRapier.tools.1.label>
+    <PEMC_FrostRapier.tools.2.label>остриё</PEMC_FrostRapier.tools.2.label>
+
+</LanguageData>

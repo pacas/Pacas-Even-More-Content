@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Pacas Even More Content</name>
+    <author>Pacas</author>
+    <url/>
+    <supportedVersions>
+        <li>1.4</li>
+    </supportedVersions>
+    <packageId>hmc.pacas.evenmorecontent</packageId>
+    <description>Even more random fun stuff, prepare to craft edition.</description>
+    <modDependencies>
+        <!--<li>
+            <packageId>Imranfish.XMLExtensions</packageId>
+            <displayName>XML Extensions</displayName>
+            <downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
+        </li>-->
+    </modDependencies>
+    <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>Ludeon.RimWorld.Royalty</li>
+        <li>Imranfish.XMLExtensions</li>
+        <li>erdelf.HumanoidAlienRaces</li>
+        <li>CETeam.CombatExtended</li>
+        <li>skyarkhangel.HSK</li>
+    </loadAfter>
+    <loadBefore>
+        <li>pacas.patchescompilation.v1</li>
+        <li>thelonetec.tsap</li>
+        <li>trinity.runtimegcupdated</li>
+        <li>krkr.rocketman</li>
+    </loadBefore>
+</ModMetaData>

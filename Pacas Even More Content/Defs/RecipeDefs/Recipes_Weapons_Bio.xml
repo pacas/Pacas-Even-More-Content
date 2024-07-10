@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef ParentName="RangedWeaponRecipeBase">
+		<defName>Build_AcidScourge</defName>
+		<label>Build Acid Scourge</label>
+		<description>A submachinegun that fires poison darts with acid points in small bursts. Small damage, medium range, medium rate of fire, but have very special ammo, which pierce through armor to inflict poison.\nCaliber: Big darts</description>
+		<jobString>Building Acid Scourge</jobString>
+		<workAmount>23400</workAmount>
+		<skillRequirements>
+			<Crafting>16</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>SMG_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AdvRifle_Component</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Weapon_Parts</li>
+					</thingDefs>
+				</filter>
+				<count>9</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentIndustrial</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>ComponentSpacer</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chitin</li>
+						<li>ChitinPlating</li>
+						<li MayRequire="sarg.alphaanimals">Leather_BlackChitin</li>
+						<li MayRequire="sarg.alphaanimals">Leather_RaptorPlates</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Metallic</li>
+					</categories>
+				</filter>
+				<count>35</count>
+			</li>
+		</ingredients>
+		<products>
+			<Gun_UMP45Gun>1</Gun_UMP45Gun>
+		</products>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>SMG_Component</li>
+				<li>AdvRifle_Component</li>
+				<li>Weapon_Parts</li>
+				<li>ComponentIndustrial</li>
+				<li>ComponentSpacer</li>
+				<li MayRequire="sarg.alphaanimals">Leather_BlackChitin</li>
+				<li MayRequire="sarg.alphaanimals">Leather_RaptorPlates</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>WeaponCraftingWorkTable</li>
+		</recipeUsers>
+	    <researchPrerequisite>SMG_C2</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

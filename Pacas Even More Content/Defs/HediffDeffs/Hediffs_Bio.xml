@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<HediffDef ParentName="Cut">
+		<defName>VenomousBioDart</defName>
+		<label>venomous wound</label>
+		<labelNoun>a venomous dart wound</labelNoun>
+		<comps>
+			<li Class="CombatExtended.HediffCompProperties_Venom">
+				<VenomPerSeverity>0.0000150</VenomPerSeverity>
+				<MinTicks>10000</MinTicks>
+				<MaxTicks>17500</MaxTicks>
+			</li>
+		</comps>
+	</HediffDef>
+	
+	
+</Defs>
