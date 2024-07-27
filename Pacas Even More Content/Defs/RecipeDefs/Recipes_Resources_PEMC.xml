@@ -36,9 +36,9 @@
         <recipeUsers>
             <li>TableChemlab</li>
         </recipeUsers>
+        <researchPrerequisite>Chemistry_C3</researchPrerequisite>
     </RecipeDef>
-
-
+    
     <RecipeDef>
         <defName>MakeLivingFirePowder</defName>
         <label>Grind Feenix heart</label>
@@ -75,5 +75,6 @@
         <recipeUsers>
             <li>TableChemlab</li>
         </recipeUsers>
+        <researchPrerequisite>Chemistry_C3</researchPrerequisite>
     </RecipeDef>
 </Defs>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <EmbrasureElemental_Flame.label>амбразура (пламя)</EmbrasureElemental_Flame.label>
+    <EmbrasureElemental_Flame.description>Отличное средство защиты. Позволяет создавать огневые точки и бункеры, откуда можно вести огонь. Пламенный порошок обеспечивает амбразуре необходимую устойчивость к взрывам, и дает возможность поглощать больше ударного урона, но делает уязвимее к режущему и колющему.</EmbrasureElemental_Flame.description>
+    <EmbrasureElemental_Frost.label>амбразура (мороз)</EmbrasureElemental_Frost.label>
+    <EmbrasureElemental_Frost.description>Отличное средство защиты. Позволяет создавать огневые точки и бункеры, откуда можно вести огонь. Морозный порошок обеспечивает амбразуре дополнительную прочность, и дает возможность поглощать больше режущего и колющего урона, но получает больше урона от огня и взрывов.</EmbrasureElemental_Frost.description>
+
+</LanguageData>

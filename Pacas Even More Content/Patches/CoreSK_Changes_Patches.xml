@@ -8,6 +8,14 @@
                     <minRefireDays>21</minRefireDays>
                 </value>
             </li>
+            
+            <li Class="PatchOperationInsert">
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Fortifications"]/defNames/li[text()="WallWire"]</xpath>
+                <value>
+                    <li>EmbrasureElemental_Flame</li>
+                    <li>EmbrasureElemental_Frost</li>
+                </value>
+            </li>
         </operations>
     </Operation>
 </Patch>
