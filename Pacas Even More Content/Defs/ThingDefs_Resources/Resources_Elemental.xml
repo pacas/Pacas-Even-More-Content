@@ -43,7 +43,7 @@
         </statBases>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
-            <texPath>Things/Item/Resources/IcePowder</texPath>
+            <texPath>Things/Items/Resources/IcePowder</texPath>
         </graphicData>
     </ThingDef>
 
@@ -89,7 +89,7 @@
         </statBases>
         <graphicData>
             <graphicClass>Graphic_Single</graphicClass>
-            <texPath>Things/Item/Resources/FirePowder</texPath>
+            <texPath>Things/Items/Resources/FirePowder</texPath>
         </graphicData>
     </ThingDef>
     
