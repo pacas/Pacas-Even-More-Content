@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+    
+    <MakeLivingFrostPowder.label>измельчить сердце Кирина</MakeLivingFrostPowder.label>
+    <MakeLivingFrostPowder.description>Измельчить сердце Кирина в морозный порошок. Производится 20.</MakeLivingFrostPowder.description>
+    <MakeLivingFrostPowder.jobString>Измельчает сердце Кирина в морозный порошок.</MakeLivingFrostPowder.jobString>
+
+    <MakeLivingFirePowder.label>измельчить сердце Феникса</MakeLivingFirePowder.label>
+    <MakeLivingFirePowder.description>Измельчить сердце Феникса в пламенный порошок. Производится 20.</MakeLivingFirePowder.description>
+    <MakeLivingFirePowder.jobString>Измельчает сердце Феникса в пламенный порошок.</MakeLivingFirePowder.jobString>
+
+</LanguageData>

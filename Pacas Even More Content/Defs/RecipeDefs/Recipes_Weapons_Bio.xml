@@ -4,7 +4,7 @@
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>Build_AcidScourge</defName>
 		<label>Build Acid Scourge</label>
-		<description>A submachinegun that fires poison darts with acid points in small bursts. Small damage, medium range, medium rate of fire, but have very special ammo, which pierce through armor to inflict poison.\nCaliber: Big darts</description>
+		<description>A submachinegun that fires poison darts with acid points in small bursts. Small damage, medium range, medium rate of fire, but very special ammo, which pierce through armor witch acid to inflict poison.\nCaliber: Big darts</description>
 		<jobString>Building Acid Scourge</jobString>
 		<workAmount>23400</workAmount>
 		<skillRequirements>

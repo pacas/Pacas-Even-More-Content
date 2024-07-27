@@ -2,16 +2,30 @@
 <Defs>
 
 	<ResearchProjectDef ParentName="HitechBase">
-		<defName>PEMC_Elemental_Forging</defName>
-		<label>Elemental forging</label>
-		<description>Any sufficiently advanced technology is indistinguishable from magic.</description>
-		<baseCost>2800</baseCost>
+		<defName>PEMC_Pyrochemistry</defName>
+		<label>Pyrochemistry</label>
+		<description>I don't want to set the world on fire...</description>
+		<baseCost>1800</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
 			<li>Melee_C2</li>
 		</prerequisites>
 		<researchViewX>16.00</researchViewX>
 		<researchViewY>28.00</researchViewY>
+		<tab>Weapon_SK</tab>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="HitechBase">
+		<defName>PEMC_Cryogenics</defName>
+		<label>Cryogenics</label>
+		<description>Winter is coming.</description>
+		<baseCost>1800</baseCost>
+		<techLevel>Industrial</techLevel>
+		<prerequisites>
+			<li>Melee_C2</li>
+		</prerequisites>
+		<researchViewX>16.00</researchViewX>
+		<researchViewY>29.00</researchViewY>
 		<tab>Weapon_SK</tab>
 	</ResearchProjectDef>
 

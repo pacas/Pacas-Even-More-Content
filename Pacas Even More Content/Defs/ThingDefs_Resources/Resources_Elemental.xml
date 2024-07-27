@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+    <ThingDef>
+        <defName>LivingFrostPowder</defName>
+        <label>Frost powder</label>
+        <description>Frost powder made from throbbing heart of a thawed Kirin. All alchemical properties were sealed after powdering, and its no longer emits frost aura, but also will expire not so quickly.</description>
+        <thingClass>ThingWithComps</thingClass>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_Glower">
+                <glowRadius>1</glowRadius>
+                <glowColor>(175,238,238,0)</glowColor>
+            </li>
+            <li Class="CompProperties_Lifespan">
+                <lifespanTicks>3530000</lifespanTicks>
+            </li>
+        </comps>
+        <tickerType>Normal</tickerType>
+        <category>Item</category>
+        <tradeTags>
+            <li>Exotic</li>
+        </tradeTags>
+        <thingCategories>
+            <li>SuperMaterialCat</li>
+        </thingCategories>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <useHitPoints>true</useHitPoints>
+        <selectable>true</selectable>
+        <altitudeLayer>Item</altitudeLayer>
+        <stackLimit>100</stackLimit>
+        <alwaysHaulable>true</alwaysHaulable>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <rotatable>false</rotatable>
+        <pathCost>15</pathCost>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>0.5</DeteriorationRate>
+            <MarketValue>75</MarketValue>
+            <Bulk>0.01</Bulk>
+            <Mass>0.01</Mass>
+        </statBases>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Item/Resources/IcePowder</texPath>
+        </graphicData>
+    </ThingDef>
+
+    <ThingDef>
+        <defName>LivingFirePowder</defName>
+        <label>Flame powder</label>
+        <description>Fire powder made from vibrating heart of an extinguished Feenix. All alchemical properties were sealed after powdering, and its no longer emits flame aura, but also will expire not so quickly.</description>
+        <thingClass>ThingWithComps</thingClass>
+        <comps>
+            <li Class="CompProperties_Forbiddable"/>
+            <li Class="CompProperties_Glower">
+                <glowRadius>1</glowRadius>
+                <glowColor>(255,150,100,0)</glowColor>
+            </li>
+            <li Class="CompProperties_Lifespan">
+                <lifespanTicks>3530000</lifespanTicks>
+            </li>
+        </comps>
+        <tickerType>Normal</tickerType>
+        <category>Item</category>
+        <tradeTags>
+            <li>Exotic</li>
+        </tradeTags>
+        <thingCategories>
+            <li>SuperMaterialCat</li>
+        </thingCategories>
+        <resourceReadoutPriority>Middle</resourceReadoutPriority>
+        <useHitPoints>true</useHitPoints>
+        <selectable>true</selectable>
+        <altitudeLayer>Item</altitudeLayer>
+        <stackLimit>100</stackLimit>
+        <alwaysHaulable>true</alwaysHaulable>
+        <drawGUIOverlay>true</drawGUIOverlay>
+        <rotatable>false</rotatable>
+        <pathCost>15</pathCost>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <Flammability>0</Flammability>
+            <DeteriorationRate>0.5</DeteriorationRate>
+            <MarketValue>75</MarketValue>
+            <Bulk>0.01</Bulk>
+            <Mass>0.01</Mass>
+        </statBases>
+        <graphicData>
+            <graphicClass>Graphic_Single</graphicClass>
+            <texPath>Things/Item/Resources/FirePowder</texPath>
+        </graphicData>
+    </ThingDef>
+    
+</Defs>

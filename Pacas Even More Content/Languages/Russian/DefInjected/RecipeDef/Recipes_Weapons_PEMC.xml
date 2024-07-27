@@ -25,4 +25,10 @@
     <Make_PEMC_FrostRapier.description>Сделать ледяную рапиру с лезвием, испускающим ледяное дыхание при каждом ударе. Не забудьте найти подходящего донора сердца!</Make_PEMC_FrostRapier.description>
     <Make_PEMC_FrostRapier.jobString>Делает ледяную рапиру.</Make_PEMC_FrostRapier.jobString>
 
+
+    
+    <Build_AcidScourge.label>Собрать кислотный бич</Build_AcidScourge.label>
+    <Build_AcidScourge.description>Пистолет-пулемет, стреляющий ядовитыми дротиками с кислотными наконечниками небольшими очередями. Небольшой урон, средняя дальность, средняя скорострельность, но его особые патроны пробивают броню кислотой и отравляют врагов.</Build_AcidScourge.description>
+    <Build_AcidScourge.jobString>Собирает кислотный бич</Build_AcidScourge.jobString>
+
 </LanguageData>

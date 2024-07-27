@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <RecipeDef>
+        <defName>MakeLivingFrostPowder</defName>
+        <label>Grind Kirin heart</label>
+        <description>Grind Kirin heart into frost powder. Produces 20.</description>
+        <jobString>Grinding Kirin heart into frost powder.</jobString>
+        <workAmount>2800</workAmount>
+        <workSpeedStat>SmithingSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Cremate</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>LivingFrost</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <LivingFrostPowder>20</LivingFrostPowder>
+        </products>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>LivingFrost</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <Crafting>10</Crafting>
+            <Medicine>5</Medicine>
+        </skillRequirements>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.8</workSkillLearnFactor>
+        <recipeUsers>
+            <li>TableChemlab</li>
+        </recipeUsers>
+    </RecipeDef>
+
+
+    <RecipeDef>
+        <defName>MakeLivingFirePowder</defName>
+        <label>Grind Feenix heart</label>
+        <description>Grind Feenix heart into flame powder. Produces 20.</description>
+        <jobString>Grinding Feenix heart into flame powder.</jobString>
+        <workAmount>2800</workAmount>
+        <workSpeedStat>SmithingSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Cremate</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>LivingFire</li>
+                    </thingDefs>
+                </filter>
+                <count>1</count>
+            </li>
+        </ingredients>
+        <products>
+            <LivingFirePowder>20</LivingFirePowder>
+        </products>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>LivingFire</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <Crafting>10</Crafting>
+            <Medicine>5</Medicine>
+        </skillRequirements>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.8</workSkillLearnFactor>
+        <recipeUsers>
+            <li>TableChemlab</li>
+        </recipeUsers>
+    </RecipeDef>
+</Defs>
