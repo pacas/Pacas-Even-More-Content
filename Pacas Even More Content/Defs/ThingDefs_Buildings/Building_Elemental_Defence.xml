@@ -51,7 +51,7 @@
             <isInert>true</isInert>
             <canPlaceOverWall>true</canPlaceOverWall>
             <blueprintGraphicData>
-                <texPath>Things/Building/EmbrasureFlame/Embrasure_Blueprint_Atlas</texPath>
+                <texPath>Things/Building/Embrasure/Embrasure_Blueprint_Atlas</texPath>
             </blueprintGraphicData>
             <buildingTags>
                 <li>ForceBuildDuringSiege</li>
@@ -176,7 +176,7 @@
             <isInert>true</isInert>
             <canPlaceOverWall>true</canPlaceOverWall>
             <blueprintGraphicData>
-                <texPath>Things/Building/EmbrasureFrost/Embrasure_Blueprint_Atlas</texPath>
+                <texPath>Things/Building/Embrasure/Embrasure_Blueprint_Atlas</texPath>
             </blueprintGraphicData>
             <buildingTags>
                 <li>ForceBuildDuringSiege</li>
