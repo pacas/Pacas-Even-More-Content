@@ -8,6 +8,7 @@
 		<baseCost>1800</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
+			<li>Chemistry_C3</li>
 			<li>Melee_C2</li>
 		</prerequisites>
 		<researchViewX>16.00</researchViewX>
@@ -22,6 +23,7 @@
 		<baseCost>1800</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
+			<li>Chemistry_C3</li>
 			<li>Melee_C2</li>
 		</prerequisites>
 		<researchViewX>16.00</researchViewX>
