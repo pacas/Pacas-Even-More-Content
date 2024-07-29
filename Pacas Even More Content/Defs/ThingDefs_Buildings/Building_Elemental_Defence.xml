@@ -24,7 +24,7 @@
                 <edgeRight>Damage/Edge</edgeRight>
             </damageData>
         </graphicData>
-        <uiIconPath>Things/Building/Embrasure/EmbrasureSmooth_MenuIcon</uiIconPath>
+        <uiIconPath>Things/Building/EmbrasureFlame/EmbrasureSmooth_MenuIcon</uiIconPath>
         <altitudeLayer>Building</altitudeLayer>
         <pathCost>85</pathCost>
         <passability>Impassable</passability>
@@ -51,7 +51,7 @@
             <isInert>true</isInert>
             <canPlaceOverWall>true</canPlaceOverWall>
             <blueprintGraphicData>
-                <texPath>Things/Building/Embrasure/Embrasure_Blueprint_Atlas</texPath>
+                <texPath>Things/Building/EmbrasureFlame/Embrasure_Blueprint_Atlas</texPath>
             </blueprintGraphicData>
             <buildingTags>
                 <li>ForceBuildDuringSiege</li>
@@ -148,7 +148,7 @@
                 <edgeRight>Damage/Edge</edgeRight>
             </damageData>
         </graphicData>
-        <uiIconPath>Things/Building/Embrasure/EmbrasureSmooth_MenuIcon</uiIconPath>
+        <uiIconPath>Things/Building/EmbrasureFrost/EmbrasureSmooth_MenuIcon</uiIconPath>
         <altitudeLayer>Building</altitudeLayer>
         <pathCost>85</pathCost>
         <passability>Impassable</passability>
@@ -176,7 +176,7 @@
             <isInert>true</isInert>
             <canPlaceOverWall>true</canPlaceOverWall>
             <blueprintGraphicData>
-                <texPath>Things/Building/Embrasure/Embrasure_Blueprint_Atlas</texPath>
+                <texPath>Things/Building/EmbrasureFrost/Embrasure_Blueprint_Atlas</texPath>
             </blueprintGraphicData>
             <buildingTags>
                 <li>ForceBuildDuringSiege</li>
