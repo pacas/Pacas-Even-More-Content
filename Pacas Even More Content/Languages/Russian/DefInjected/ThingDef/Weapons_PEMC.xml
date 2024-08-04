@@ -36,4 +36,12 @@
     <PEMC_FrostRapier.tools.1.label>ледяное лезвие</PEMC_FrostRapier.tools.1.label>
     <PEMC_FrostRapier.tools.2.label>остриё</PEMC_FrostRapier.tools.2.label>
 
+    
+    
+    <PEMC_Gun_Acid_Scourge.label>Кислотный бич</PEMC_Gun_Acid_Scourge.label>
+    <PEMC_Gun_Acid_Scourge.description>Пистолет-пулемет, стреляющий ядовитыми дротиками с кислотными наконечниками небольшими очередями. Небольшой урон, средняя дальность, средняя скорострельность, но его особые патроны пробивают броню кислотой и отравляют врагов. Вам не захочется слышать их крики.</PEMC_Gun_Acid_Scourge.description>
+    <PEMC_Gun_Acid_Scourge.tools.0.label>приклад</PEMC_Gun_Acid_Scourge.tools.0.label>
+    <PEMC_Gun_Acid_Scourge.tools.1.label>ствол</PEMC_Gun_Acid_Scourge.tools.1.label>
+    <PEMC_Gun_Acid_Scourge.tools.2.label>дуло</PEMC_Gun_Acid_Scourge.tools.2.label>
+
 </LanguageData>

@@ -4,7 +4,7 @@
 	<RecipeDef ParentName="RangedWeaponRecipeBase">
 		<defName>Build_AcidScourge</defName>
 		<label>Build Acid Scourge</label>
-		<description>A submachinegun that fires poison darts with acid points in small bursts. Small damage, medium range, medium rate of fire, but have very special ammo, which pierce through armor to inflict poison.\nCaliber: Big darts</description>
+		<description>A submachinegun that fires poison darts with acid points in small bursts. Small damage, medium range, medium rate of fire, but very special ammo, which pierce through armor witch acid to inflict poison.\nCaliber: Big darts</description>
 		<jobString>Building Acid Scourge</jobString>
 		<workAmount>23400</workAmount>
 		<skillRequirements>
@@ -65,7 +65,7 @@
 			<li>
 				<filter>
 					<categories>
-						<li>Metallic</li>
+						<li>USLDBar</li>
 					</categories>
 				</filter>
 				<count>35</count>
@@ -81,18 +81,19 @@
 				<li>Weapon_Parts</li>
 				<li>ComponentIndustrial</li>
 				<li>ComponentSpacer</li>
+				<li>Chitin</li>
+				<li>ChitinPlating</li>
 				<li MayRequire="sarg.alphaanimals">Leather_BlackChitin</li>
 				<li MayRequire="sarg.alphaanimals">Leather_RaptorPlates</li>
 			</thingDefs>
 			<categories>
-				<li>SLDBar</li>
 				<li>USLDBar</li>
 			</categories>
 		</fixedIngredientFilter>
 		<recipeUsers>
-			<li>WeaponCraftingWorkTable</li>
+			<li>AdvWeaponCraftingWorkTable</li>
 		</recipeUsers>
-	    <researchPrerequisite>SMG_C2</researchPrerequisite>
+	    <researchPrerequisite>PEMC_BioWeapons</researchPrerequisite>
 	</RecipeDef>
 
 </Defs>

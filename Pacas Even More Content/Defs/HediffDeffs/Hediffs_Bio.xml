@@ -7,7 +7,7 @@
 		<labelNoun>a venomous dart wound</labelNoun>
 		<comps>
 			<li Class="CombatExtended.HediffCompProperties_Venom">
-				<VenomPerSeverity>0.0000150</VenomPerSeverity>
+				<VenomPerSeverity>0.000009</VenomPerSeverity>
 				<MinTicks>10000</MinTicks>
 				<MaxTicks>17500</MaxTicks>
 			</li>

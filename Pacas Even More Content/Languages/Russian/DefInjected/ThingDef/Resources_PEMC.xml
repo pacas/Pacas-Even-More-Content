@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <LivingFrostPowder.label>морозный порошок</LivingFrostPowder.label>
+    <LivingFrostPowder.description>Морозный порошок, сделанный из пульсирующего сердца Кирина. Все алхимические свойства сердца были запечатаны, и порошок больше не излучает морозную ауру, но и портится не так быстро.</LivingFrostPowder.description>
+
+    <LivingFirePowder.label>пламенный порошок</LivingFirePowder.label>
+    <LivingFirePowder.description>Пламенный порошок, сделанный из пульсирующего сердца Феникса. Все алхимические свойства сердца были запечатаны, и порошок больше не излучает пламенную ауру, но и портится не так быстро.</LivingFirePowder.description>
+
+</LanguageData>
