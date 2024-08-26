@@ -5,9 +5,24 @@
     <url/>
     <supportedVersions>
         <li>1.4</li>
+        <li>1.5</li>
     </supportedVersions>
     <packageId>hmc.pacas.evenmorecontent</packageId>
-    <description>Even more random fun stuff, prepare to craft edition.</description>
+    <description>Even more content, mostly focused on elemental crafting.
+        This mod adds:
+        - Kirin and Feenix hearts processing
+        - Elemental weapons
+         - Bioweapons
+        - Elemental embrasures
+        - Elemental fuse 
+
+        Больше контента, больше!
+        Этот мод добавляет:
+        - Обработка сердец Кирина и Феникса.
+        - Элементальное оружие
+        - Биооружие
+        - Элементарные амбразуры
+        - Элементальный предохранитель</description>
     <modDependencies>
         <!--<li>
             <packageId>Imranfish.XMLExtensions</packageId>
