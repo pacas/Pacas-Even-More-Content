@@ -12,7 +12,7 @@
         This mod adds:
         - Kirin and Feenix hearts processing
         - Elemental weapons
-         - Bioweapons
+        - Bioweapons
         - Elemental embrasures
         - Elemental fuse 
 
@@ -30,6 +30,11 @@
             <downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
             <steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
         </li>-->
+        <li>
+            <packageId>ratys.rtfuse</packageId>
+            <displayName>RT Fuse SK</displayName>
+            <downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+        </li>
     </modDependencies>
     <loadAfter>
         <li>Ludeon.RimWorld</li>
@@ -38,6 +43,7 @@
         <li>erdelf.HumanoidAlienRaces</li>
         <li>CETeam.CombatExtended</li>
         <li>skyarkhangel.HSK</li>
+        <li>ratys.rtfuse</li>
     </loadAfter>
     <loadBefore>
         <li>pacas.patchescompilation.v1</li>
