@@ -24,12 +24,12 @@
         - Элементарные амбразуры
         - Элементальный предохранитель</description>
     <modDependencies>
-        <!--<li>
+        <li>
             <packageId>Imranfish.XMLExtensions</packageId>
             <displayName>XML Extensions</displayName>
             <downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
             <steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
-        </li>-->
+        </li>
         <li>
             <packageId>ratys.rtfuse</packageId>
             <displayName>RT Fuse SK</displayName>

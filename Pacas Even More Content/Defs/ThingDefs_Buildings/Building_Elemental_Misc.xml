@@ -3,7 +3,7 @@
     <ThingDef>
         <defName>Building_RTCircuitBreakerExtra</defName>
         <label>elemental circuit breaker</label>
-        <description>A set of automatic circuit breakers. Handles up to 350000 Wd discharge, will flick off if tripped.</description>
+        <description>A set of automatic circuit breakers. Handles up to 350000 Wd discharge, will flick off if tripped. The increased capacity comes from the instantaneous heating of the phoenix powder thermocells followed by rapid cooling.</description>
         <designationCategory>Power</designationCategory>
         <category>Building</category>
         <thingClass>Building</thingClass>
@@ -14,9 +14,9 @@
         <graphicData>
             <texPath>Things/Building/ElementalBreaker/Building_ElementalBreaker</texPath>
             <graphicClass>Graphic_Single</graphicClass>
-            <drawSize>(1,1)</drawSize>
+            <drawSize>(2,2)</drawSize>
             <damageData>
-                <rect>(0.24, 0.15, 0.76, 0.61)</rect>
+                <rect>(0.48, 0.3, 1.52, 1.22)</rect>
             </damageData>
         </graphicData>
         <drawerType>MapMeshAndRealTime</drawerType>
@@ -30,7 +30,7 @@
             <li>PEMC_Pyrochemistry</li>
             <li>PEMC_Cryogenics</li>
         </researchPrerequisites>
-        <size>(1, 1)</size>
+        <size>(2, 2)</size>
         <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
         <altitudeLayer>Building</altitudeLayer>
         <passability>PassThroughOnly</passability>
