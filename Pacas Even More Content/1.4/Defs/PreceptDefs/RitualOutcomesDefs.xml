@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  
+  <RitualAttachableOutcomeEffectDef>
+    <defName>SummonKirin</defName>
+    <workerClass>PEMC.RitualAttachableOutcomeEffectWorkers.RewardKirinWorker</workerClass>
+    <label>summon kirin</label>
+    <effectDesc>one kirin will be spawned.</effectDesc>
+    <letterInfoText>Kirin appeared on the map! You feel that another kirin will not appear on the map for another 3 weeks.</letterInfoText>
+    <requiredMemeAny>
+      <li>Rancher</li>
+      <li>NaturePrimacy</li>
+    </requiredMemeAny>
+  </RitualAttachableOutcomeEffectDef>
+
+  <RitualAttachableOutcomeEffectDef>
+    <defName>SummonFeenix</defName>
+    <workerClass>PEMC.RitualAttachableOutcomeEffectWorkers.RewardFeenixWorker</workerClass>
+    <label>summon feenix</label>
+    <effectDesc>one feenix will be spawned.</effectDesc>
+    <letterInfoText>Feenix appeared on the map! You feel that another feenix will not appear on the map for another 3 weeks.</letterInfoText>
+    <requiredMemeAny>
+      <li>Rancher</li>
+      <li>NaturePrimacy</li>
+    </requiredMemeAny>
+  </RitualAttachableOutcomeEffectDef>
+  
+</Defs>
