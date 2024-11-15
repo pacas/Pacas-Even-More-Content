@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props"
+            Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
+    <PropertyGroup>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{02D94C52-3C5D-4B0D-80E1-325F321DC5E5}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>PEMC</RootNamespace>
+        <AssemblyName>PEMC</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <PlatformTarget>AnyCPU</PlatformTarget>
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="0Harmony">
+          <HintPath>..\v1.5\0Harmony.dll</HintPath>
+        </Reference>
+        <Reference Include="Assembly-CSharp">
+          <HintPath>..\v1.5\Assembly-CSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="CombatExtended">
+          <HintPath>..\v1.5\CombatExtended.dll</HintPath>
+        </Reference>
+        <Reference Include="System"/>
+        <Reference Include="System.Core"/>
+        <Reference Include="System.Data"/>
+        <Reference Include="System.Xml"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="Workers\RewardFeenixWorker.cs" />
+        <Compile Include="Workers\RewardKirinWorker.cs" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include=".gitignore" />
+      <Content Include="Pacas Even More Content\1.4\Assemblies\PEMC.dll" />
+      <Content Include="Pacas Even More Content\1.4\Defs\CombatExtended\Ammo\BioAmmuntion.xml" />
+      <Content Include="Pacas Even More Content\1.4\Defs\DamageDefs\Damages_Bio.xml" />
+      <Content Include="Pacas Even More Content\1.4\Defs\DamageDefs\Damages_Elements.xml" />
+      <Content Include="Pacas Even More Content\1.4\Defs\HediffDeffs\Hediffs_Bio.xml" />
+      <Content Include="Pacas Even More Content\1.4\Defs\HediffDeffs\Hediffs_Elements.xml" />
+      <Content Include="Pacas Even More Content\1.4\Defs\Maneuvers\Maneuvers_Elements.xml" />
+      <Content Include="Pacas Even More Content\1.4\Defs\RecipeDefs\Recipes_Resources_PEMC.xml" />
+      <Content Include="Pacas Even More Content\1.4\Defs\RecipeDefs\Recipes_Weapons_Bio.xml" />
+      <Content Include="Pacas Even More Content\1.4\Defs\ResearchProjectDefs\Research_PEMC.xml" />
+      <Content Include="Pacas Even More Content\1.4\Defs\ThingDefs_Buildings\Building_Elemental_Defence.xml" />
+      <Content Include="Pacas Even More Content\1.4\Defs\ThingDefs_Buildings\Building_Elemental_Misc.xml" />
+      <Content Include="Pacas Even More Content\1.4\Defs\ThingDefs_Resources\Resources_Elemental.xml" />
+      <Content Include="Pacas Even More Content\1.4\Defs\ThingDefs_Weapons\Weapons_Melee_Elemental.xml" />
+      <Content Include="Pacas Even More Content\1.4\Defs\ThingDefs_Weapons\Weapons_Ranged_Bio.xml" />
+      <Content Include="Pacas Even More Content\1.4\Patches\CoreSK_Changes_Patches.xml" />
+      <Content Include="Pacas Even More Content\1.5\Assemblies\PEMC.dll" />
+      <Content Include="Pacas Even More Content\1.5\Defs\CombatExtended\Ammo\BioAmmuntion.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\DamageDefs\Damages_Bio.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\DamageDefs\Damages_Elements.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\HediffDeffs\Hediffs_Bio.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\HediffDeffs\Hediffs_Elements.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\Maneuvers\Maneuvers_Elements.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\PreceptDefs\RitualOutcomesDefs.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\RecipeDefs\Recipes_Resources_PEMC.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\RecipeDefs\Recipes_Weapons_Bio.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\ResearchProjectDefs\Research_PEMC.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\ThingDefs_Buildings\Building_Elemental_Defence.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\ThingDefs_Buildings\Building_Elemental_Misc.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\ThingDefs_Resources\Resources_Elemental.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\ThingDefs_Weapons\Weapons_Melee_Elemental.xml" />
+      <Content Include="Pacas Even More Content\1.5\Defs\ThingDefs_Weapons\Weapons_Ranged_Bio.xml" />
+      <Content Include="Pacas Even More Content\1.5\Patches\CoreSK_Changes_Patches.xml" />
+      <Content Include="Pacas Even More Content\About\About.xml" />
+      <Content Include="Pacas Even More Content\About\Preview.png" />
+      <Content Include="Pacas Even More Content\About\Preview2.pdn" />
+      <Content Include="Pacas Even More Content\About\Preview2.png" />
+      <Content Include="Pacas Even More Content\Languages\English\Keyed\RitualEffectKeys.xml" />
+      <Content Include="Pacas Even More Content\Languages\Russian\DefInjected\ArchitectSense.DesignationSubCategoryDefs\SubCategories_PEMC.xml" />
+      <Content Include="Pacas Even More Content\Languages\Russian\DefInjected\CombatExtended.AmmoSetDef\AmmoSets_PEMC.xml" />
+      <Content Include="Pacas Even More Content\Languages\Russian\DefInjected\HediffDef\Hediffs_Melee_Elemental.xml" />
+      <Content Include="Pacas Even More Content\Languages\Russian\DefInjected\RecipeDef\Recipes_Ammo_PEMC.xml" />
+      <Content Include="Pacas Even More Content\Languages\Russian\DefInjected\RecipeDef\Recipes_Resources_PEMC.xml" />
+      <Content Include="Pacas Even More Content\Languages\Russian\DefInjected\RecipeDef\Recipes_Weapons_PEMC.xml" />
+      <Content Include="Pacas Even More Content\Languages\Russian\DefInjected\ResearchProjectDef\Research_PEMC.xml" />
+      <Content Include="Pacas Even More Content\Languages\Russian\DefInjected\RitualAttachableOutcomeEffectDef\RitualRewards_PEMC.xml" />
+      <Content Include="Pacas Even More Content\Languages\Russian\DefInjected\ThingDef\Ammo_PEMC.xml" />
+      <Content Include="Pacas Even More Content\Languages\Russian\DefInjected\ThingDef\Buildings_PEMC.xml" />
+      <Content Include="Pacas Even More Content\Languages\Russian\DefInjected\ThingDef\Resources_PEMC.xml" />
+      <Content Include="Pacas Even More Content\Languages\Russian\DefInjected\ThingDef\Weapons_PEMC.xml" />
+      <Content Include="Pacas Even More Content\Languages\Russian\Keyed\RitualEffectKeys.xml" />
+      <Content Include="Pacas Even More Content\LoadFolders.xml" />
+      <Content Include="Pacas Even More Content\Textures\Things\Ammo\BioDart\Dart_a.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Ammo\BioDart\Dart_b.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Ammo\BioDart\Dart_c.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\ElementalBreaker\Building_ElementalBreaker.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\ElementalBreaker\Test.pdn" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFlame\EmbrasureBricks_MenuIcon.pdn" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFlame\EmbrasureBricks_MenuIcon.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFlame\EmbrasureMetal_MenuIcon.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFlame\EmbrasureSmooth_MenuIcon.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFlame\Embrasure_Atlas_Bricks.pdn" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFlame\Embrasure_Atlas_Bricks.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFlame\Embrasure_Atlas_Metal.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFlame\Embrasure_Atlas_Smooth.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFrost\EmbrasureBricks_MenuIcon.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFrost\EmbrasureMetal_MenuIcon.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFrost\EmbrasureSmooth_MenuIcon.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFrost\Embrasure_Atlas_Bricks.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFrost\Embrasure_Atlas_Metal.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\EmbrasureFrost\Embrasure_Atlas_Smooth.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Building\FirefoamColumn\FirefoamColumn.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Items\Resources\FirePowder.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Items\Resources\IcePowder.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Flame_Dagger_reserve.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Flame_Greatsword.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Flame_Greatsword_m.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Flame_Katana.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Flame_Katana_m.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Flame_Spear.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Flame_Spear_m.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Frost_Dagger.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Frost_Dagger_m.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Frost_Greataxe.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Frost_Greataxe_m.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Frost_Rapier.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Frost_Rapier_m.png" />
+      <Content Include="Pacas Even More Content\Textures\Things\Weapons\Ranged\PEMC_Insect_SMG.png" />
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
+    <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+
+</Project>

@@ -1,5 +1,5 @@
 # Pacas Even More Content
-![Preview](/Pacas Even More Content/About/Preview.png?raw=true "Preview")<br><br>
+![Preview](Pacas Even More Content/About/Preview.png?raw=true "Preview")<br><br>
 More content, more!
 This mod adds:
 * Kirin and Feenix hearts processing

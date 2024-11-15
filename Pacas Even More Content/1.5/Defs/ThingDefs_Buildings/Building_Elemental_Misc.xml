@@ -74,10 +74,10 @@
         </comps>
     </ThingDef>
     
-    <!--<ThingDef ParentName="SK_BuildingBase">
+    <ThingDef ParentName="SK_BuildingBase">
         <defName>PEMC_FirefoamColumn</defName>
         <label>Firefoam dispenser column</label>
-        <description>A utility column, dispence firefoam around and keeps your feenix room fire-free.</description>
+        <description>A special column that releases fire foam and keeps your base fire free. Better than a basic foam dispenser.</description>
         <graphicData>
 			<drawSize>(1.25,1.25)</drawSize>
 			<drawOffset>(0,0,0.2)</drawOffset>
@@ -106,7 +106,7 @@
         <statBases>
             <MaxHitPoints>100</MaxHitPoints>
 			<WorkToBuild>2000</WorkToBuild>
-			<Flammability>0</Flammability>
+			<Flammability>0.1</Flammability>
 			<Bulk>25</Bulk>
 			<Mass>15</Mass>
         </statBases>
@@ -122,27 +122,30 @@
         </stuffCategories>
         <costStuffCount>90</costStuffCount>
         <comps>
-            <li Class="CompProperties_Glower">
-                <glowRadius>1</glowRadius>
-                <glowColor>(370,370,370,0)</glowColor>
+            <li Class="CompProperties_Explosive">
+                <explosiveRadius>12.9</explosiveRadius>
+                <explosiveDamageType>Extinguish</explosiveDamageType>
+                <startWickHitPointsPercent>-1</startWickHitPointsPercent>
+                <startWickOnDamageTaken>
+                    <li>Flame</li>
+                </startWickOnDamageTaken>
+                <postExplosionSpawnThingDef>Filth_FireFoam</postExplosionSpawnThingDef>
+                <postExplosionSpawnChance>1</postExplosionSpawnChance>
+                <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+                <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+                <explosionEffect>ExtinguisherExplosion</explosionEffect>
+                <explosionSound>Explosion_FirefoamPopper</explosionSound>
             </li>
-            <li Class="CompProperties_SpawnerFilth">
-                <filthDef>Filth_FireFoam</filthDef>
-                <spawnCountOnSpawn>40</spawnCountOnSpawn>
-                <spawnMtbHours>24</spawnMtbHours>
-                <spawnRadius>4</spawnRadius>
+            <li Class="CompProperties_Usable">
+                <useJob>TriggerObject</useJob>
+                <useLabel>Trigger {0_label}</useLabel>
             </li>
-            <li Class="CompProperties_Refuelable">
-                <fuelConsumptionRate>4</fuelConsumptionRate>
-                <fuelCapacity>100.0</fuelCapacity>
-                <autoRefuelPercent>5</autoRefuelPercent>
-                <fuelFilter>
-                    <thingDefs>
-                        <li>Chemfuel</li>
-                    </thingDefs>
-                </fuelFilter>
-                <destroyOnNoFuel>false</destroyOnNoFuel>
-                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+            <li Class="CompProperties_UseEffect">
+                <compClass>CompUseEffect_StartWick</compClass>
+            </li>
+            <li Class="CompProperties_ProximityFuse">
+                <target>Fire</target>
+                <radius>3</radius>
             </li>
         </comps>
         <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
@@ -154,6 +157,6 @@
         </researchPrerequisites>
         <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
         <specialDisplayRadius>4</specialDisplayRadius>
-    </ThingDef>-->
+    </ThingDef>
     
 </Defs>

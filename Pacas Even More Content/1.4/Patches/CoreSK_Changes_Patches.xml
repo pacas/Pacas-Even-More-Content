@@ -30,7 +30,7 @@
                 <logic>and</logic>
                 <caseTrue>
                     <Operation Class="PatchOperationAdd">
-                        <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Fortifications"]/defNames</xpath>
+                        <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="Fuses"]/defNames</xpath>
                         <value>
                             <li>Building_RTCircuitBreakerExtra</li>
                         </value>
