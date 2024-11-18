@@ -77,7 +77,7 @@
     <ThingDef ParentName="SK_BuildingBase">
         <defName>PEMC_FirefoamColumn</defName>
         <label>Firefoam dispenser column</label>
-        <description>A special column that releases fire foam and keeps your base fire free. Better than a basic foam dispenser.</description>
+        <description>A special column that releases fire foam and keeps your base fire free. Radius is determined by the fuel fill.</description>
         <graphicData>
 			<drawSize>(1.25,1.25)</drawSize>
 			<drawOffset>(0,0,0.2)</drawOffset>
