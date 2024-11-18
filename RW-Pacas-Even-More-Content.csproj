@@ -47,11 +47,12 @@
         <Reference Include="System.Core"/>
         <Reference Include="System.Data"/>
         <Reference Include="System.Xml"/>
-    </ItemGroup>
-    <ItemGroup>
-        <Compile Include="Properties\AssemblyInfo.cs"/>
-        <Compile Include="Workers\RewardFeenixWorker.cs" />
-        <Compile Include="Workers\RewardKirinWorker.cs" />
+        <Reference Include="UnityEngine">
+          <HintPath>..\v1.5\UnityEngine.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+          <HintPath>..\v1.5\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
     </ItemGroup>
     <ItemGroup>
       <Content Include=".gitignore" />
@@ -143,6 +144,14 @@
       <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Frost_Rapier.png" />
       <Content Include="Pacas Even More Content\Textures\Things\Weapons\Melee\PEMC_Frost_Rapier_m.png" />
       <Content Include="Pacas Even More Content\Textures\Things\Weapons\Ranged\PEMC_Insect_SMG.png" />
+    </ItemGroup>
+    <ItemGroup>
+      <Compile Include="Source\Comps\CompProperties_SafeExplosive.cs" />
+      <Compile Include="Source\Comps\CompProperties_SafeProximityFuse.cs" />
+      <Compile Include="Source\Comps\CompProximitySafeFuse.cs" />
+      <Compile Include="Source\Comps\CompSafeExplosive.cs" />
+      <Compile Include="Source\Workers\RewardFeenixWorker.cs" />
+      <Compile Include="Source\Workers\RewardKirinWorker.cs" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

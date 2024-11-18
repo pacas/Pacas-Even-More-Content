@@ -122,9 +122,10 @@
         </stuffCategories>
         <costStuffCount>90</costStuffCount>
         <comps>
-            <li Class="CompProperties_Explosive">
-                <explosiveRadius>12.9</explosiveRadius>
+            <li Class="PEMC.CompProperties_SafeExplosive">
+                <explosiveRadius>1</explosiveRadius>
                 <explosiveDamageType>Extinguish</explosiveDamageType>
+                <chanceNeverExplodeFromDamage>1</chanceNeverExplodeFromDamage>
                 <startWickHitPointsPercent>-1</startWickHitPointsPercent>
                 <startWickOnDamageTaken>
                     <li>Flame</li>
@@ -132,9 +133,23 @@
                 <postExplosionSpawnThingDef>Filth_FireFoam</postExplosionSpawnThingDef>
                 <postExplosionSpawnChance>1</postExplosionSpawnChance>
                 <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+                <destroyThingOnExplosionSize>9999</destroyThingOnExplosionSize>
                 <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
                 <explosionEffect>ExtinguisherExplosion</explosionEffect>
                 <explosionSound>Explosion_FirefoamPopper</explosionSound>
+                <explosiveExpandPerFuel>1</explosiveExpandPerFuel>
+            </li>
+            <li Class="CompProperties_Refuelable">
+                <fuelConsumptionRate>0.05</fuelConsumptionRate>
+                <fuelCapacity>20.0</fuelCapacity>
+                <autoRefuelPercent>0.1</autoRefuelPercent>
+                <fuelFilter>
+                    <thingDefs>
+                        <li>Surfactant</li>
+                    </thingDefs>
+                </fuelFilter>
+                <destroyOnNoFuel>false</destroyOnNoFuel>
+                <showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
             </li>
             <li Class="CompProperties_Usable">
                 <useJob>TriggerObject</useJob>
@@ -143,7 +158,7 @@
             <li Class="CompProperties_UseEffect">
                 <compClass>CompUseEffect_StartWick</compClass>
             </li>
-            <li Class="CompProperties_ProximityFuse">
+            <li Class="PEMC.CompProperties_SafeProximityFuse">
                 <target>Fire</target>
                 <radius>3</radius>
             </li>
