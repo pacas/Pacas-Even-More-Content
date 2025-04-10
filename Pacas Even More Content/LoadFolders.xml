@@ -7,5 +7,6 @@
     <v1.5>
 		<li>/</li>
 		<li>1.5</li>
+		<li IfModActive="notfood.seedsplease">1.5/Mods/SeedsPlease</li>
 	</v1.5>
 </loadFolders>

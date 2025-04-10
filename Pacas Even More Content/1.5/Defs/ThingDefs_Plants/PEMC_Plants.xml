@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+    <ThingDef ParentName="SK_DeciduousPlantDef">
+        <defName>Plant_Cocorn</defName>
+        <label>Cocorn Plant</label>
+        <description>Cocorn plants are large grain plants that produce ears of delicious red seeds that are called cocorns. Cocorn plants grow slowly but yeild lots of food. Cocorn is a great food ingredient. But the deep red color of the seeds resembles blood too much....</description>
+        <graphicData>
+            <texPath>Things/Plant/Gigacorn/Gigacorn</texPath>
+            <graphicClass>Graphic_Random</graphicClass>
+        </graphicData>
+        <statBases>
+            <Beauty>-3</Beauty>
+            <BeautyOutdoors>-3</BeautyOutdoors>
+            <Nutrition>0.7</Nutrition>
+        </statBases>
+        <plant>
+            <maxMeshCount>1</maxMeshCount>
+            <sowMinSkill>18</sowMinSkill>
+            <sowResearchPrerequisites>
+                <li>PEMC_GMOPlants</li>
+            </sowResearchPrerequisites>
+            <sowTags>
+                <li>Ground</li>
+                <li>Hydroponic</li>
+            </sowTags>
+            <immatureGraphicPath>Things/Plant/Gigacorn/Gigacorn_Immature</immatureGraphicPath>
+            <harvestedThingDef>RawCocorn</harvestedThingDef>
+            <harvestYield>90</harvestYield>
+            <topWindExposure>0.15</topWindExposure>
+            <growDays>16</growDays>
+            <fertilitySensitivity>1.5</fertilitySensitivity>
+            <fertilityMin>0.65</fertilityMin>
+            <visualSizeRange>0.7~1.5</visualSizeRange>
+            <purpose>Food</purpose>
+            <humanFoodPlant>true</humanFoodPlant>
+        </plant>
+    </ThingDef>
+    
+    <ThingDef ParentName="SK_PlantFoodRawBase">
+        <defName>RawCocorn</defName>
+        <label>Cocorn</label>
+        <description>Cocorn comes from the cocorn plant. The leafy stalk of the plant produces ears which contain the grain. Cocorn can be cooked for food. Cocorn is also known as modern maize.</description>
+        <soundInteract>Grain_Drop</soundInteract>
+        <soundDrop>Grain_Drop</soundDrop>
+        <graphicData>
+            <texPath>Things/Veg/Gigacorn</texPath>
+        </graphicData>
+        <statBases>
+            <MarketValue>3.0</MarketValue>
+            <Nutrition>0.05</Nutrition>
+        </statBases>
+        <tickerType>Rare</tickerType>
+        <thingCategories>
+            <li>BasicPlantFoodRaw</li>
+        </thingCategories>
+        <ingestible>
+            <foodType>VegetableOrFruit</foodType>
+        </ingestible>
+        <comps>
+            <li Class="CompProperties_Rottable">
+                <daysToRotStart>90</daysToRotStart>
+            </li>
+        </comps>
+        <stackLimit>300</stackLimit>
+    </ThingDef>
+    
+</Defs>

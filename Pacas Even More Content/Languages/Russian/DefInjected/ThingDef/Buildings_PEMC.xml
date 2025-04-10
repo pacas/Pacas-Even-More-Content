@@ -10,7 +10,21 @@
     <Building_RTCircuitBreakerExtra.description>Блок автоматических прерывателей для смягчения короткого замыкания. При размещении в любом месте сети каждый предохранитель безопасно разряжает до 350000 Вт, смягчая или предотвращая взрыв. Повышенная мощность появляется за счет мгновенного нагрева термоэлементов из порошка феникса с последующим Быстрым охлаждением. При срабатывании отключается.</Building_RTCircuitBreakerExtra.description>
 
     <PEMC_FirefoamColumn.label>колонна с пожарной пеной</PEMC_FirefoamColumn.label>
-    <PEMC_FirefoamColumn.description>Специальная колонна, которая выпускает пожарную пену при пожаре и предохраняет вашу базу от огня. Радиус определяется заполненностью топливом.</PEMC_FirefoamColumn.description>
+    <PEMC_FirefoamColumn.description>Специальная колонна, которая выпускает пожарную пену при пожаре и предохраняет вашу базу от огня. Лучше, чем базовая хлопушка.</PEMC_FirefoamColumn.description>
     <PEMC_FirefoamColumn.comps.2.useLabel>Активировать колонну вручную</PEMC_FirefoamColumn.comps.2.useLabel>
+    
+    <PlasticRefiner.label>переработчик пластика</PlasticRefiner.label>
+    <PlasticRefiner.description>Перерабатывает химическое топливо в пластик.</PlasticRefiner.description>
+    <PlasticRefiner_Blueprint.label>переработчик пластика (проект)</PlasticRefiner_Blueprint.label>
+    <PlasticRefiner_Blueprint_Install.label>переработчик пластика (проект)</PlasticRefiner_Blueprint_Install.label>
+    <PlasticRefiner_Frame.label>переработчик пластика (постройка)</PlasticRefiner_Frame.label>
+    <PlasticRefiner_Frame.description>Перерабатывает химическое топливо в пластик.</PlasticRefiner_Frame.description>
+
+    <RubberRefiner.label>переработчик резины</RubberRefiner.label>
+    <RubberRefiner.description>Перерабатывает химическое топливо в резину.</RubberRefiner.description>
+    <RubberRefiner_Blueprint.label>переработчик резины (проект)</RubberRefiner_Blueprint.label>
+    <RubberRefiner_Blueprint_Install.label>переработчик резины (проект)</RubberRefiner_Blueprint_Install.label>
+    <RubberRefiner_Frame.label>переработчик резины (постройка)</RubberRefiner_Frame.label>
+    <RubberRefiner_Frame.description>Перерабатывает химическое топливо в резину.</RubberRefiner_Frame.description>
 
 </LanguageData>

@@ -8,10 +8,50 @@ namespace PEMC
 {
     public class CompSafeExplosive : CompExplosive
     {
-        private Thing instigator = null;
-        private OverlayHandle? overlayBurningWick;
-        
+        public Thing instigator;
+        public int countdownTicksLeft = -1;
+        public OverlayHandle? overlayBurningWick;
+        public Sustainer wickSoundSustainer;
+        public bool wickStarted;
         public new CompProperties_SafeExplosive Props => (CompProperties_SafeExplosive) props;
+        
+        public override void CompTick()
+        {
+            if (countdownTicksLeft > 0)
+            {
+                --countdownTicksLeft;
+                if (countdownTicksLeft == 0)
+                {
+                    StartWick();
+                    countdownTicksLeft = -1;
+                }
+            }
+            if (!wickStarted)
+                return;
+            if (wickSoundSustainer == null)
+                StartWickSustainer();
+            else
+                wickSoundSustainer.Maintain();
+            if (Props.wickMessages != null)
+            {
+                foreach (WickMessage wickMessage in Props.wickMessages)
+                {
+                    if (wickMessage.ticksLeft == wickTicksLeft && wickMessage.wickMessagekey != null)
+                        Messages.Message(wickMessage.wickMessagekey.Translate((NamedArgument) parent.GetCustomLabelNoCount(false), (NamedArgument) wickTicksLeft.ToStringSecondsFromTicks()), (Thing) this.parent, wickMessage.messageType ?? MessageTypeDefOf.NeutralEvent, false);
+                }
+            }
+            --wickTicksLeft;
+            if (wickTicksLeft > 0)
+                return;
+            Detonate(parent.MapHeld);
+        }
+        
+        private void StartWickSustainer()
+        {
+            SoundDefOf.MetalHitImportant.PlayOneShot(new TargetInfo(parent.PositionHeld, parent.MapHeld));
+            SoundInfo info = SoundInfo.InMap((TargetInfo) (Thing) parent, MaintenanceType.PerTick);
+            wickSoundSustainer = SoundDefOf.HissSmall.TrySpawnSustainer(info);
+        }
         
         private void UpdateOverlays()
         {
@@ -20,13 +60,33 @@ namespace PEMC
             parent.Map.overlayDrawer.Disable(parent, ref overlayBurningWick);
             if (!wickStarted)
                 return;
-            overlayBurningWick =
-                parent.Map.overlayDrawer.Enable(parent, OverlayTypes.BurningWick);
+            overlayBurningWick = parent.Map.overlayDrawer.Enable(parent, OverlayTypes.BurningWick);
         }
 
         private bool CanExplodeFromDamageType(DamageDef damage)
         {
             return Props.requiredDamageTypeToExplode == null || Props.requiredDamageTypeToExplode == damage;
+        }
+        
+        public override void PostSpawnSetup(bool respawningAfterLoad)
+        {
+            if (Props.countdownTicks.HasValue)
+                countdownTicksLeft = Props.countdownTicks.Value.RandomInRange;
+            UpdateOverlays();
+        }
+        
+        public override void PostDeSpawn(Map map)
+        {
+            base.PostDeSpawn(map);
+            StopWick();
+        }
+        
+        public new void StopWick()
+        {
+            wickStarted = false;
+            instigator = null;
+            parent.Map.overlayDrawer.Disable(parent, ref overlayBurningWick);
+            EndWickSustainer();
         }
 
         private void EndWickSustainer()
@@ -60,12 +120,13 @@ namespace PEMC
                 this.instigator == null || this.instigator.HostileTo(parent.Faction) &&
                 parent.Faction != Faction.OfPlayer ? parent : this.instigator;
             if (props.explosiveExpandPerFuel > 0.0 && parent.GetComp<CompRefuelable>() != null) {
-                radius += parent.GetComp<CompRefuelable>().Fuel;
+                radius += parent.GetComp<CompRefuelable>().Fuel * 1.3f;
                 parent.GetComp<CompRefuelable>().ConsumeFuel(parent.GetComp<CompRefuelable>().Fuel);
             }
 
             EndWickSustainer();
             wickStarted = false;
+            parent.Map.overlayDrawer.Disable(parent, ref overlayBurningWick);
             if (map == null) {
                 Log.Warning("Tried to detonate CompExplosive in a null map.");
             } else {
@@ -76,44 +137,35 @@ namespace PEMC
                     effecter.Cleanup();
                 }
 
-                IntVec3 positionHeld = parent.PositionHeld;
-                Map map1 = map;
-                DamageDef explosiveDamageType = props.explosiveDamageType;
-                Thing instigator = thing;
-                int damageAmountBase = props.damageAmountBase;
-                double armorPenetrationBase = props.armorPenetrationBase;
-                SoundDef explosionSound = props.explosionSound;
-                ThingDef explosionSpawnThingDef1 = props.postExplosionSpawnThingDef;
-                double explosionSpawnChance1 = props.postExplosionSpawnChance;
-                int explosionSpawnThingCount1 = props.postExplosionSpawnThingCount;
-                GasType? explosionGasType = Props.postExplosionGasType;
-                int num2 = props.applyDamageToExplosionCellsNeighbors ? 1 : 0;
-                ThingDef explosionSpawnThingDef2 = props.preExplosionSpawnThingDef;
-                double explosionSpawnChance2 = props.preExplosionSpawnChance;
-                int explosionSpawnThingCount2 = props.preExplosionSpawnThingCount;
-                double chanceToStartFire = props.chanceToStartFire;
-                int num3 = props.damageFalloff ? 1 : 0;
-                float? direction = new float?();
                 List<Thing> ignoredByExplosion = new List<Thing>{parent};
-                FloatRange? affectedAngle = new FloatRange?();
-                int num4 = props.doVisualEffects ? 1 : 0;
-                bool doSoundEffects = props.doSoundEffects;
-                double propagationSpeed = props.propagationSpeed;
-                int num5 = doSoundEffects ? 1 : 0;
-                GenExplosion.DoExplosion(positionHeld, map1, radius, explosiveDamageType, instigator,
-                    damageAmountBase, (float)armorPenetrationBase, explosionSound,
-                    postExplosionSpawnThingDef: explosionSpawnThingDef1,
-                    postExplosionSpawnChance: (float)explosionSpawnChance1,
-                    postExplosionSpawnThingCount: explosionSpawnThingCount1, postExplosionGasType: explosionGasType,
-                    applyDamageToExplosionCellsNeighbors: num2 != 0, preExplosionSpawnThingDef: explosionSpawnThingDef2,
-                    preExplosionSpawnChance: (float)explosionSpawnChance2,
-                    preExplosionSpawnThingCount: explosionSpawnThingCount2, chanceToStartFire: (float)chanceToStartFire,
-                    damageFalloff: num3 != 0, excludeRadius: 1, direction: direction, ignoredThings: ignoredByExplosion,
-                    affectedAngle: affectedAngle, doVisualEffects: num4 != 0, propagationSpeed: (float)propagationSpeed,
-                    doSoundEffects: num5 != 0);
+                GenExplosion.DoExplosion(
+                    parent.PositionHeld, 
+                    map, 
+                    radius, 
+                    props.explosiveDamageType, 
+                    thing,
+                    props.damageAmountBase, 
+                    props.armorPenetrationBase, 
+                    props.explosionSound,
+                    postExplosionSpawnThingDef: props.postExplosionSpawnThingDef,
+                    postExplosionSpawnChance: props.postExplosionSpawnChance,
+                    postExplosionSpawnThingCount: props.postExplosionSpawnThingCount, 
+                    postExplosionGasType: props.postExplosionGasType,
+                    applyDamageToExplosionCellsNeighbors: props.applyDamageToExplosionCellsNeighbors, 
+                    preExplosionSpawnThingDef: props.preExplosionSpawnThingDef,
+                    preExplosionSpawnChance: props.preExplosionSpawnChance,
+                    preExplosionSpawnThingCount: props.preExplosionSpawnThingCount, 
+                    chanceToStartFire: props.chanceToStartFire,
+                    damageFalloff: props.damageFalloff, 
+                    excludeRadius: 1, 
+                    direction: null, 
+                    ignoredThings: ignoredByExplosion,
+                    affectedAngle: null, 
+                    doVisualEffects: props.doVisualEffects, 
+                    propagationSpeed: props.propagationSpeed,
+                    doSoundEffects: props.doSoundEffects
+                );
             }
-
-            UpdateOverlays();
         }
         
         public override void PostDestroy(DestroyMode mode, Map previousMap)

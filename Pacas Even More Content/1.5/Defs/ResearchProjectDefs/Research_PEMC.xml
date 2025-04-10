@@ -47,4 +47,18 @@
 		<tab>Weapon_SK</tab>
 	</ResearchProjectDef>
 
+	<ResearchProjectDef ParentName="HitechMultiBase">
+		<defName>PEMC_GMOPlants</defName>
+		<label>GMO Plants</label>
+		<description>Bigger. Better. Probably tastier.</description>
+		<baseCost>4500</baseCost>
+		<techLevel>Spacer</techLevel>
+		<prerequisites>
+			<li>GeneProcessor</li>
+		</prerequisites>
+		<researchViewX>19.00</researchViewX>
+		<researchViewY>69.00</researchViewY>
+		<tab>Buildings_SK</tab>
+	</ResearchProjectDef>
+
 </Defs>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+    <SeedsPlease.SeedDef ParentName="SeedBase">
+        <defName>Seed_Gigacorn</defName>
+        <label>cocorn seeds</label>
+        <description>Seeds of cocorn.</description>
+        <descriptionHyperlinks>
+            <ThingDef>Plant_Cocorn</ThingDef>
+        </descriptionHyperlinks>
+        <sources>
+            <li>Plant_Cocorn</li>
+        </sources>
+        <graphicData>
+            <texPath>Things/Items/Seeds/Gigacorn</texPath>
+        </graphicData>
+        <statBases>
+            <MarketValue>30</MarketValue>
+            <DeteriorationRate>5</DeteriorationRate>
+        </statBases>
+        <tradeTags Inherit="False"/>
+    </SeedsPlease.SeedDef>
+    
+    <RecipeDef ParentName="ExtractSeed">
+        <defName>ExtractSeed_Gigacorn</defName>
+        <label>extract cocorn seeds</label>
+        <description>Extract seeds from cocorn.</description>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>RawCocorn</li>
+                    </thingDefs>
+                </filter>
+                <count>8</count>
+            </li>
+        </ingredients>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>RawCocorn</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <products>
+            <Seed_Gigacorn>3</Seed_Gigacorn>
+        </products>
+    </RecipeDef>
+    
+</Defs>
