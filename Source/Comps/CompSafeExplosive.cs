@@ -17,32 +17,33 @@ namespace PEMC
         
         public override void CompTick()
         {
-            if (countdownTicksLeft > 0)
-            {
+            if (countdownTicksLeft > 0) {
                 --countdownTicksLeft;
-                if (countdownTicksLeft == 0)
-                {
+                if (countdownTicksLeft == 0) {
                     StartWick();
                     countdownTicksLeft = -1;
                 }
             }
+            
             if (!wickStarted)
                 return;
+            
             if (wickSoundSustainer == null)
                 StartWickSustainer();
             else
                 wickSoundSustainer.Maintain();
-            if (Props.wickMessages != null)
-            {
-                foreach (WickMessage wickMessage in Props.wickMessages)
-                {
+            
+            if (Props.wickMessages != null) {
+                foreach (WickMessage wickMessage in Props.wickMessages) {
                     if (wickMessage.ticksLeft == wickTicksLeft && wickMessage.wickMessagekey != null)
-                        Messages.Message(wickMessage.wickMessagekey.Translate((NamedArgument) parent.GetCustomLabelNoCount(false), (NamedArgument) wickTicksLeft.ToStringSecondsFromTicks()), (Thing) this.parent, wickMessage.messageType ?? MessageTypeDefOf.NeutralEvent, false);
+                        Messages.Message(wickMessage.wickMessagekey.Translate((NamedArgument) parent.GetCustomLabelNoCount(false), (NamedArgument) wickTicksLeft.ToStringSecondsFromTicks()), (Thing) parent, wickMessage.messageType ?? MessageTypeDefOf.NeutralEvent, false);
                 }
             }
+            
             --wickTicksLeft;
             if (wickTicksLeft > 0)
                 return;
+            
             Detonate(parent.MapHeld);
         }
         
