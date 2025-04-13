@@ -1,5 +1,5 @@
 # Pacas Even More Content
-![Preview](Pacas%20Even%20More%20Content/About/Preview.png?raw=true "Preview")<br><br>
+![Preview](Pacas%20Even%20More%20Content/About/Preview2.png?raw=true "Preview")<br><br>
 More content, more!
 This mod adds:
 * Kirin and Feenix hearts processing
@@ -7,6 +7,9 @@ This mod adds:
 * Bioweapons
 * Elemental embrasures
 * Elemental fuse
+* Reinforced bridges
+* New oil refiners
+* Crafting fossils and crystals
 
 <br>
 Больше контента, больше!
@@ -15,5 +18,8 @@ This mod adds:
 * Обработка сердец Кирина и Феникса.
 * Элементальное оружие
 * Биооружие
-* Элементарные амбразуры
+* Элементальные амбразуры
 * Элементальный предохранитель
+* Усиленные мосты
+* Новые переработчики нефти
+* Крафт окаменелостей и кристаллов
