@@ -5,24 +5,65 @@
     <url/>
     <supportedVersions>
         <li>1.4</li>
+        <li>1.5</li>
     </supportedVersions>
     <packageId>hmc.pacas.evenmorecontent</packageId>
-    <description>Even more random fun stuff, prepare to craft edition.</description>
+    <description>Even more content, mostly focused on elemental crafting.
+        This mod adds:
+        - Kirin and Feenix hearts processing
+        - Elemental and bio weapons
+        - Elemental embrasures
+        - Elemental fuse
+        - Reinforced bridges
+        - New oil refiners
+        - Crafting fossils and crystals
+
+        Больше контента, больше!
+        Этот мод добавляет:
+        - Обработка сердец Кирина и Феникса.
+        - Элементальное и био оружие
+        - Элементальные амбразуры
+        - Элементальный предохранитель
+        - Усиленные мосты
+        - Новые переработчики нефти
+        - Крафт окаменелостей и кристаллов
+    </description>
     <modDependencies>
-        <!--<li>
+        <li>
             <packageId>Imranfish.XMLExtensions</packageId>
             <displayName>XML Extensions</displayName>
             <downloadUrl>https://github.com/15adhami/XmlExtensions/releases</downloadUrl>
             <steamWorkshopUrl>steam://url/CommunityFilePage/2574315206</steamWorkshopUrl>
-        </li>-->
+        </li>
+        <li>
+            <packageId>ratys.rtfuse</packageId>
+            <displayName>RT Fuse SK</displayName>
+            <downloadUrl>https://github.com/skyarkhangel/Hardcore-SK</downloadUrl>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Royalty</packageId>
+            <displayName>Royalty</displayName>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Ideology</packageId>
+            <displayName>Ideology</displayName>
+        </li>
+        <li>
+            <packageId>Ludeon.RimWorld.Biotech</packageId>
+            <displayName>Biotech</displayName>
+        </li>
     </modDependencies>
     <loadAfter>
         <li>Ludeon.RimWorld</li>
         <li>Ludeon.RimWorld.Royalty</li>
+        <li>Ludeon.RimWorld.Ideology</li>
+        <li>Ludeon.RimWorld.Biotech</li>
         <li>Imranfish.XMLExtensions</li>
         <li>erdelf.HumanoidAlienRaces</li>
         <li>CETeam.CombatExtended</li>
         <li>skyarkhangel.HSK</li>
+        <li>ratys.rtfuse</li>
+        <li>dubwise.rimefeller</li>
     </loadAfter>
     <loadBefore>
         <li>pacas.patchescompilation.v1</li>

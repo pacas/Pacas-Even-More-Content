@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingCategoryDef>
+		<defName>AmmoDartsBio</defName>
+		<label>big poison darts</label>
+		<parent>AmmoHighCaliber</parent>
+		<iconPath>UI/Icons/ThingCategories/CaliberArrow</iconPath>
+	</ThingCategoryDef>
+
+	<!-- ==================== AmmoSet ========================== -->
+
+	<CombatExtended.AmmoSetDef>
+		<defName>AmmoSet_DartsBio</defName>
+		<label>big darts</label>
+		<ammoTypes>
+			<Ammo_DartBio>Bullet_PoisonDartBio</Ammo_DartBio>
+		</ammoTypes>
+	</CombatExtended.AmmoSetDef>
+
+	<!-- ==================== Ammo ========================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="SmallAmmoBase">
+		<defName>Ammo_DartBio</defName>
+		<label>Big darts</label>
+		<description>The poison darts.</description>
+		<tradeTags>
+			<li>CE_AutoEnableTrade</li>
+			<li>CE_AutoEnableCrafting_ElectricSmithy</li>
+		</tradeTags>
+		<thingCategories>
+			<li>AmmoDarts</li>
+		</thingCategories>
+		<graphicData>
+			<texPath>Things/Ammo/BioDart</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<statBases>
+			<MarketValue>0.7</MarketValue>
+			<Mass>0.016</Mass>
+			<Bulk>0.01</Bulk>
+		</statBases>
+		<ammoClass>ArmorPiercing</ammoClass>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+	</ThingDef>
+
+	<!-- ================== Projectiles ================== -->
+
+	<ThingDef Class="CombatExtended.AmmoDef" Name="BasePoisonDart" ParentName="SK_BaseBullet" Abstract="true">
+		<graphicData>
+			<texPath>Things/Projectile/Dart/Dart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageDef>BioDartVenom</damageDef>
+			<speed>75</speed>
+			<dropsCasings>false</dropsCasings>
+            <suppressionFactor>5</suppressionFactor>
+            <dangerFactor>2</dangerFactor>
+            <airborneSuppressionFactor>3.5</airborneSuppressionFactor>
+		</projectile>
+	</ThingDef>
+
+	<ThingDef Class="CombatExtended.AmmoDef" ParentName="BasePoisonDart">
+		<defName>Bullet_PoisonDartBio</defName>
+		<label>big dart</label>
+		<projectile Class="CombatExtended.ProjectilePropertiesCE">
+			<damageAmountBase>7</damageAmountBase>
+			<armorPenetrationBlunt>5</armorPenetrationBlunt>
+			<armorPenetrationSharp>50</armorPenetrationSharp>
+		</projectile>
+	</ThingDef>
+
+	<!-- ==================== Recipes ========================== -->
+
+	<RecipeDef ParentName="AmmoRecipeHighCaliber">
+		<defName>MakeAmmo_DartBio</defName>
+		<label>make big poison darts x250</label>
+		<description>Craft 250 big poison darts.</description>
+		<jobString>Making big poison darts.</jobString>
+		<workAmount>1800</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Machining</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<workSkill>Crafting</workSkill>
+		<targetCountAdjustment>250</targetCountAdjustment>
+		<skillRequirements>
+			<Medicine>7</Medicine>
+			<Crafting>12</Crafting>
+		</skillRequirements>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>SLDBar</li>
+						<li>USLDBar</li>
+					</categories>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Chitin</li>
+						<li>ChitinPlating</li>
+						<li MayRequire="sarg.alphaanimals">Leather_BlackChitin</li>
+						<li MayRequire="sarg.alphaanimals">Leather_RaptorPlates</li>
+					</thingDefs>
+				</filter>
+				<count>25</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>MedicineHerbal</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>MedicineHerbal</li>
+				<li>Chitin</li>
+				<li>ChitinPlating</li>
+				<li MayRequire="sarg.alphaanimals">Leather_BlackChitin</li>
+				<li MayRequire="sarg.alphaanimals">Leather_RaptorPlates</li>
+			</thingDefs>
+			<categories>
+				<li>SLDBar</li>
+				<li>USLDBar</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<Ammo_DartBio>250</Ammo_DartBio>
+		</products>
+	    <researchPrerequisite>PEMC_BioWeapons</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>

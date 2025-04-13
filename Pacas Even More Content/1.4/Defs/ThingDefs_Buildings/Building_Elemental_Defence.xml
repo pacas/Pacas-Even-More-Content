@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+    
     <ThingDef ParentName="SK_BuildingBase">
         <defName>EmbrasureElemental_Flame</defName>
         <label>embrasure (flame)</label>
@@ -68,6 +69,7 @@
         <designationCategory>Security</designationCategory>
         <staticSunShadowHeight>0.20</staticSunShadowHeight>
         <repairEffect>ConstructDirt</repairEffect>
+        <disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
         <damageMultipliers Inherit="False">
             <li>
                 <damageDef>Bomb</damageDef>
@@ -193,6 +195,7 @@
         <designationCategory>Security</designationCategory>
         <staticSunShadowHeight>0.20</staticSunShadowHeight>
         <repairEffect>ConstructDirt</repairEffect>
+        <disableImpassableShotOverConfigError>true</disableImpassableShotOverConfigError>
         <damageMultipliers Inherit="False">
             <li>
                 <damageDef>Bomb</damageDef>
@@ -248,4 +251,5 @@
             <li Class="SK.EmbrasureExtension"/>
         </modExtensions>
     </ThingDef>
+    
 </Defs>

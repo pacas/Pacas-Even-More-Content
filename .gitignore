@@ -1,2 +1,7 @@
-/.idea
-/Pacas Even More Content.sln
+/.idea/
+/bin/
+/obj/
+/Folder.DotSettings.user
+/RW-Pacas-Even-More-Content.csproj
+/RW-Pacas-Even-More-Content.sln
+/Properties/AssemblyInfo.cs

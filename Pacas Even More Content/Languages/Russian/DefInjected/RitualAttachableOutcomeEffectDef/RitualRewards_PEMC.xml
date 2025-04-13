@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <SummonKirin.label>призыв кирина</SummonKirin.label>
+    <SummonKirin.effectDesc>Появится один кирин</SummonKirin.effectDesc>
+    <SummonKirin.letterInfoText>Кирин появился на карте! Но вы чувствуете, что другой Кирин не появится ещё как минимум три недели...</SummonKirin.letterInfoText>
+
+    <SummonFeenix.label>призыв феникса</SummonFeenix.label>
+    <SummonFeenix.effectDesc>Появится один феникс</SummonFeenix.effectDesc>
+    <SummonFeenix.letterInfoText>Феникса появился на карте! Но вы чувствуете, что другой феникс не появится ещё как минимум три недели...</SummonFeenix.letterInfoText>
+
+</LanguageData>

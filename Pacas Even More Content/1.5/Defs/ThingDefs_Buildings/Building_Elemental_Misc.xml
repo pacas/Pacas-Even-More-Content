@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef>
+        <defName>Building_RTCircuitBreakerExtra</defName>
+        <label>elemental circuit breaker</label>
+        <description>A set of automatic circuit breakers. Handles up to 350000 Wd discharge, will flick off if tripped. The increased capacity comes from the instantaneous heating of the phoenix powder thermocells followed by rapid cooling.</description>
+        <designationCategory>Power</designationCategory>
+        <category>Building</category>
+        <thingClass>Building</thingClass>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsPower</li>
+        </thingCategories>
+        <graphicData>
+            <texPath>Things/Building/ElementalBreaker/Building_ElementalBreaker</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <damageData>
+                <rect>(0.48, 0.3, 1.52, 1.22)</rect>
+            </damageData>
+        </graphicData>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <repairEffect>Repair</repairEffect>
+        <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+        <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+        <staticSunShadowHeight>0.2</staticSunShadowHeight>
+        <castEdgeShadows>true</castEdgeShadows>
+        <researchPrerequisites>
+            <li>Electrical_engineering_E1</li>
+            <li>PEMC_Pyrochemistry</li>
+            <li>PEMC_Cryogenics</li>
+        </researchPrerequisites>
+        <size>(2, 2)</size>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <selectable>True</selectable>
+        <rotatable>True</rotatable>
+        <fillPercent>0.30</fillPercent>
+        <pathCost>70</pathCost>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <WorkToBuild>10000</WorkToBuild>
+            <Flammability>0.0</Flammability>
+            <Mass>200</Mass>
+            <Beauty>30</Beauty>
+        </statBases>
+        <leaveResourcesWhenKilled>False</leaveResourcesWhenKilled>
+        <stuffCategories>
+            <li>RuggedMetallic</li>
+        </stuffCategories>
+        <costStuffCount>250</costStuffCount>
+        <costList>
+            <ComponentSpacer>10</ComponentSpacer>
+            <ComponentUltra>3</ComponentUltra>
+            <MagneticMaterial>10</MagneticMaterial>
+            <BioMicrochips>3</BioMicrochips>
+            <LivingFrostPowder>50</LivingFrostPowder>
+            <LivingFirePowder>50</LivingFirePowder>
+        </costList>
+        <constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTransmitter</compClass>
+                <transmitsPower>True</transmitsPower>
+            </li>
+            <li Class="CompProperties_Flickable"/>
+            <li Class="RT_Fuse.CompProperties_RTFuse">
+                <compClass>RT_Fuse.CompRTFuse</compClass>
+                <surgeMitigation>350000</surgeMitigation>
+                <breakdownOnTrip>false</breakdownOnTrip>
+            </li>
+            <li Class="CompProperties_Breakdownable"/>
+        </comps>
+    </ThingDef>
+    
+    <!--<ThingDef ParentName="SK_BuildingBase">
+        <defName>PEMC_FirefoamColumn</defName>
+        <label>Firefoam dispenser column</label>
+        <description>A special column that releases fire foam and keeps your base fire free. .</description>
+        <graphicData>
+			<drawSize>(1.25,1.25)</drawSize>
+			<drawOffset>(0,0,0.2)</drawOffset>
+            <texPath>Things/Building/FirefoamColumn/FirefoamColumn</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<shadowData>
+				<volume>(0.3, 0.5, 0.3)</volume>
+				<offset>(0,0,-0.23)</offset>
+			</shadowData>
+			<damageData>
+				<rect>(0.2,0.2,0.6,0.6)</rect>
+			</damageData>
+        </graphicData>
+        <uiIconPath>Things/Building/FirefoamColumn/FirefoamColumn</uiIconPath>
+        <drawerType>MapMeshAndRealTime</drawerType>
+        <tickerType>Normal</tickerType>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>PassThroughOnly</passability>
+        <pathCost>70</pathCost>
+        <fillPercent>0.8</fillPercent>
+        <castEdgeShadows>true</castEdgeShadows>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <thingCategories>
+            <li>BuildingsMisc</li>
+        </thingCategories>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+			<WorkToBuild>2000</WorkToBuild>
+			<Flammability>0.1</Flammability>
+			<Bulk>25</Bulk>
+			<Mass>15</Mass>
+        </statBases>
+        <size>(1,1)</size>
+        <costList>
+            <ReinforcedConcrete>10</ReinforcedConcrete>
+            <ElectronicComponents>10</ElectronicComponents>
+            <ComponentIndustrial>5</ComponentIndustrial>
+            <Mechanism>2</Mechanism>
+        </costList>
+        <stuffCategories>
+            <li>StrongMetallic</li>
+        </stuffCategories>
+        <costStuffCount>90</costStuffCount>
+        <comps>
+            <li Class="PEMC.CompProperties_SafeExplosive">
+                <explosiveRadius>1</explosiveRadius>
+                <explosiveDamageType>Extinguish</explosiveDamageType>
+                <chanceNeverExplodeFromDamage>1</chanceNeverExplodeFromDamage>
+                <startWickHitPointsPercent>-1</startWickHitPointsPercent>
+                <startWickOnDamageTaken>
+                    <li>Flame</li>
+                </startWickOnDamageTaken>
+                <postExplosionSpawnThingDef>Filth_FireFoam</postExplosionSpawnThingDef>
+                <postExplosionSpawnChance>1</postExplosionSpawnChance>
+                <postExplosionSpawnThingCount>1</postExplosionSpawnThingCount>
+                <destroyThingOnExplosionSize>9999</destroyThingOnExplosionSize>
+                <applyDamageToExplosionCellsNeighbors>true</applyDamageToExplosionCellsNeighbors>
+                <explosionEffect>ExtinguisherExplosion</explosionEffect>
+                <explosionSound>Explosion_FirefoamPopper</explosionSound>
+                <explosiveExpandPerFuel>1</explosiveExpandPerFuel>
+            </li>
+			<li Class="CompProperties_Refuelable">
+				<fuelConsumptionRate>0.05</fuelConsumptionRate>
+				<fuelCapacity>20.0</fuelCapacity>
+				<autoRefuelPercent>0.1</autoRefuelPercent>
+				<fuelFilter>
+					<thingDefs>
+						<li>Surfactant</li>
+					</thingDefs>
+				</fuelFilter>
+				<destroyOnNoFuel>false</destroyOnNoFuel>
+				<showAllowAutoRefuelToggle>true</showAllowAutoRefuelToggle>
+			</li>
+            <li Class="CompProperties_Usable">
+                <useJob>TriggerObject</useJob>
+                <useLabel>Trigger {0_label}</useLabel>
+            </li>
+            <li Class="CompProperties_UseEffect">
+                <compClass>CompUseEffect_StartWick</compClass>
+            </li>
+            <li Class="PEMC.CompProperties_SafeProximityFuse">
+                <target>Fire</target>
+                <radius>3</radius>
+            </li>
+        </comps>
+        <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+        <designationCategory>Structure</designationCategory>
+        <rotatable>false</rotatable>
+        <stealable>false</stealable>
+        <researchPrerequisites>
+            <li>Firefoam</li>
+        </researchPrerequisites>
+        <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+        <specialDisplayRadius>4</specialDisplayRadius>
+    </ThingDef>-->
+    
+    <ThingDef ParentName="GeneBuildingBase">
+        <defName>GeneBank_Primitive</defName>
+        <label>primitive gene bank</label>
+        <description>This building can store one genepack and without making them usable to create new xenogerms when placed near a gene assembler.</description>
+        <graphicData>
+            <texPath>Things/Building/GeneCooler</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1,1)</drawSize>
+        </graphicData>
+        <castEdgeShadows>true</castEdgeShadows>
+        <tickerType>Rare</tickerType>
+        <passability>PassThroughOnly</passability>
+        <canOverlapZones>false</canOverlapZones>
+        <rotatable>false</rotatable>
+        <size>(1,1)</size>
+        <statBases>
+            <MaxHitPoints>100</MaxHitPoints>
+            <WorkToBuild>2000</WorkToBuild>
+            <Mass>10</Mass>
+            <Flammability>0.9</Flammability>
+        </statBases>
+        <inspectorTabs>
+            <li>ITab_ContentsGenepackHolder</li>
+        </inspectorTabs>
+        <stuffCategories>
+            <li>Woody</li>
+        </stuffCategories>
+        <costStuffCount>40</costStuffCount>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Coldstone>15</Coldstone>
+            <Glowstone>5</Glowstone>
+            <Nitre>25</Nitre>
+        </costList>
+        <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
+        <descriptionHyperlinks>
+            <ThingDef>Genepack</ThingDef>
+        </descriptionHyperlinks>
+        <comps>
+            <li Class="CompProperties_GenepackContainer">
+                <maxCapacity>1</maxCapacity>
+            </li>
+        </comps>
+        <minifiedDef>MinifiedThing</minifiedDef>
+        <researchPrerequisites Inherit="False">
+            <li>Temperature_control_B1</li>
+        </researchPrerequisites>
+        <thingCategories>
+            <li>BuildingsMisc</li>
+        </thingCategories>
+    </ThingDef>
+    
+</Defs>

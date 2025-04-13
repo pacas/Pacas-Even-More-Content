@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+    <ExtractSeed_Gigacorn.label>Получить семена гигарузы</ExtractSeed_Gigacorn.label>
+    <ExtractSeed_Gigacorn.description>Извлечь семена из гигарузы</ExtractSeed_Gigacorn.description>
+    <ExtractSeed_Gigacorn.jobString>извлекает семена гигарузы.</ExtractSeed_Gigacorn.jobString>
+  
+    <PEMC_MakeGigacornSeeds.label>создать семена гигарузы</PEMC_MakeGigacornSeeds.label>
+    <PEMC_MakeGigacornSeeds.description>Используя свои знания о модификации генома, создайте семена гигарузы. Производится 30.</PEMC_MakeGigacornSeeds.description>
+    <PEMC_MakeGigacornSeeds.jobString>геномомешалка мешает геном</PEMC_MakeGigacornSeeds.jobString>
+    
+</LanguageData>
