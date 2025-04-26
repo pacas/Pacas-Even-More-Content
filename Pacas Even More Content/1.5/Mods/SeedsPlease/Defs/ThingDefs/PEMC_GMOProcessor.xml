@@ -63,7 +63,7 @@
 			<soundAmbient>GeothermalPlant_Ambience</soundAmbient>
 		</building>
 		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<!--<li>PlaceWorker_ShowFacilitiesConnections</li>-->
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
 		</placeWorkers>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>

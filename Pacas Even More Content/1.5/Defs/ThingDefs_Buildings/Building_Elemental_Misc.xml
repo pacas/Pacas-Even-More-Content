@@ -208,6 +208,7 @@
             <Glowstone>5</Glowstone>
             <Nitre>25</Nitre>
         </costList>
+        <placeWorkers Inherit="False"/>
         <constructionSkillPrerequisite>3</constructionSkillPrerequisite>
         <descriptionHyperlinks>
             <ThingDef>Genepack</ThingDef>
