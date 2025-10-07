@@ -7,7 +7,7 @@
 		<description>Portable saw that cuts with a set of rotating chain with teeth. Hard to use as weapon, but if enemy is right here, and you dont have a gun...</description>
         <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
-			<texPath>Things/Items/Tools/Chainsaw</texPath>
+			<texPath>Things/Weapons/Tools/Chainsaw</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -87,7 +87,7 @@
 		<description>Pneumatic tool that combines a hammer directly with a chisel.</description>
         <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
-			<texPath>Things/Items/Tools/jackhammer</texPath>
+			<texPath>Things/Weapons/Tools/jackhammer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -165,7 +165,7 @@
 		<description>One of the best tools for soil cultivation, also can be used as planter, irrigator, and harvester. Too heavy for using as weapon.</description>
         <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
-			<texPath>Things/Items/Tools/Cultivator</texPath>
+			<texPath>Things/Weapons/Tools/Cultivator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -257,7 +257,7 @@
 		<description>Powerful tool for cleaning large areas.</description>
         <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
-			<texPath>Things/Items/Tools/LeafBlower</texPath>
+			<texPath>Things/Weapons/Tools/LeafBlower</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -332,7 +332,7 @@
 		<description>Handheld power tool used for abrasive cutting and polishing.</description>
         <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
-			<texPath>Things/Items/Tools/angleGrinder</texPath>
+			<texPath>Things/Weapons/Tools/angleGrinder</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -414,7 +414,7 @@
 		<description>Simple tool that melt solder so that it can flow into the joint between two workpieces.</description>
         <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
-			<texPath>Things/Items/Tools/SolderingIron</texPath>
+			<texPath>Things/Weapons/Tools/SolderingIron</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -505,7 +505,7 @@
 		<description>Roomy case with different tools for work.</description>
         <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
-			<texPath>Things/Items/Tools/ToolBox</texPath>
+			<texPath>Things/Weapons/Tools/ToolBox</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
@@ -582,7 +582,7 @@
 		<description>Handbag with a bunch of medical tools: different types of scalpel, surgical scissors, hemostats, endoscope, and a bunch of surgical sutures and staples.</description>
         <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
-			<texPath>Things/Items/Tools/MedTools</texPath>
+			<texPath>Things/Weapons/Tools/MedTools</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>

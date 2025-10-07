@@ -7,7 +7,7 @@
 		<description>Pocket personal digital assistant. Increase processing speed of big data — invaluable in science and geological researches.</description>
         <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
-			<texPath>Things/Items/Tools/PDA</texPath>
+			<texPath>Things/Weapons/Tools/PDA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>

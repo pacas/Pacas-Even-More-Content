@@ -7,7 +7,7 @@
 		<description>Little spade for digging.</description>
         <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
-			<texPath>Things/Items/Tools/Shovel</texPath>
+			<texPath>Things/Weapons/Tools/Shovel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
