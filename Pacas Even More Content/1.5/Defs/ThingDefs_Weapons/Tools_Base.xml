@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+	<ThingDef ParentName="BaseTool" Name="PEMC_BaseTool" Abstract="True">
+        <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
+		<soundInteract>InteractMelee</soundInteract>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MeleeCounterParryBonus>0.1</MeleeCounterParryBonus>
+            <ToolEffectivenessFactor>1</ToolEffectivenessFactor>
+			<Beauty>-1</Beauty>
+		</statBases>
+		<thingCategories>
+			<li>SurvivalToolsIndustrial</li>
+		</thingCategories>
+	</ThingDef>	
+</Defs>

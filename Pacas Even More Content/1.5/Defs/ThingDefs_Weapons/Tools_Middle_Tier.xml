@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<!-- _________________________________________________ -->
-	<ThingDef ParentName="BaseTool">
+	<!--============================================-->
+	<ThingDef ParentName="PEMC_BaseTool">
 		<defName>Dll_Tool_Chainsaw</defName>
 		<label>chainsaw</label>
-		<description>Portable saw that cuts with a set of rotating chain with teeth. Hard to use as weapon, but if enemy is right here, and you dont have a gun...</description>
-        <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
+		<description>Portable saw that cuts with a set of rotating chain with teeth. Hard to use as a weapon, but if enemy is right here, and you don't have a gun...</description>
 		<graphicData>
 			<texPath>Things/Weapons/Tools/Chainsaw</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<soundInteract>InteractMelee</soundInteract>
 		<stuffCategories>
 			<li>StrongMetallic</li>
             <li>RuggedMetallic</li>
@@ -68,29 +66,25 @@
                 <defaultSurvivalToolAssignmentTags>
                     <li>PlantWorker</li>
                 </defaultSurvivalToolAssignmentTags>
+				<toolWearFactor>0.25</toolWearFactor>
             </li>
 		</modExtensions>
-		<thingCategories>
-			<li>SurvivalToolsIndustrial</li>
-		</thingCategories>
 		<recipeMaker>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
-	<!-- _________________________________________________ -->
-	<ThingDef ParentName="BaseTool">
+	<!--============================================-->
+	<ThingDef ParentName="PEMC_BaseTool">
 		<defName>Dll_Tool_Jackhammer</defName>
 		<label>jackhammer</label>
 		<description>Pneumatic tool that combines a hammer directly with a chisel.</description>
-        <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
 			<texPath>Things/Weapons/Tools/jackhammer</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<soundInteract>InteractMelee</soundInteract>
 		<stuffCategories>
 			<li>StrongMetallic</li>
             <li>RuggedMetallic</li>
@@ -142,33 +136,30 @@
 			<li Class="SurvivalToolsLite.SurvivalToolProperties">
                 <baseWorkStatFactors>
                     <MiningSpeed>2</MiningSpeed>
+                    <MiningYieldDigging>1</MiningYieldDigging>
                 </baseWorkStatFactors>
                 <defaultSurvivalToolAssignmentTags>
                     <li>Miner</li>
                 </defaultSurvivalToolAssignmentTags>
+				<toolWearFactor>0.25</toolWearFactor>
             </li>
 		</modExtensions>
-		<thingCategories>
-			<li>SurvivalToolsIndustrial</li>
-		</thingCategories>
 		<recipeMaker>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
-	<!-- _________________________________________________ -->
-	<ThingDef ParentName="BaseTool">
+	<!--============================================-->
+	<ThingDef ParentName="PEMC_BaseTool">
 		<defName>Dll_Tool_Agriculture</defName>
 		<label>cultivator</label>
-		<description>One of the best tools for soil cultivation, also can be used as planter, irrigator, and harvester. Too heavy for using as weapon.</description>
-        <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
+		<description>One of the best tools for soil cultivation, also can be used as planter, irrigator, and harvester. Too heavy for using as a weapon.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Tools/Cultivator</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<soundInteract>InteractMelee</soundInteract>
 		<stuffCategories>
 			<li>StrongMetallic</li>
             <li>RuggedMetallic</li>
@@ -234,33 +225,30 @@
                 <baseWorkStatFactors>
                     <PlantHarvestingSpeed>1.5</PlantHarvestingSpeed>
 					<PlantWorkSpeed>1.5</PlantWorkSpeed>
+					<PruningSpeed MayRequire="ludeon.rimworld.ideology">1.5</PruningSpeed>
                 </baseWorkStatFactors>
                 <defaultSurvivalToolAssignmentTags>
                     <li>PlantWorker</li>
                 </defaultSurvivalToolAssignmentTags>
+				<toolWearFactor>0.25</toolWearFactor>
             </li>
 		</modExtensions>
-		<thingCategories>
-			<li>SurvivalToolsIndustrial</li>
-		</thingCategories>
 		<recipeMaker>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
-	<!-- _________________________________________________ -->
-	<ThingDef ParentName="BaseTool">
+	<!--============================================-->
+	<ThingDef ParentName="PEMC_BaseTool">
 		<defName>Dll_Tool_LeafBlower</defName>
 		<label>leaf blower</label>
 		<description>Powerful tool for cleaning large areas.</description>
-        <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
 			<texPath>Things/Weapons/Tools/LeafBlower</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<soundInteract>InteractMelee</soundInteract>
 		<stuffCategories>
 			<li>StrongMetallic</li>
             <li>RuggedMetallic</li>
@@ -316,29 +304,25 @@
 				<defaultSurvivalToolAssignmentTags>
 					<li>Cleaning</li>
 				</defaultSurvivalToolAssignmentTags>
+				<toolWearFactor>0.25</toolWearFactor>
             </li>
 		</modExtensions>
-		<thingCategories>
-			<li>SurvivalToolsIndustrial</li>
-		</thingCategories>
 		<recipeMaker>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
-	<!-- _________________________________________________ -->
-	<ThingDef ParentName="BaseTool">
+	<!--============================================-->
+	<ThingDef ParentName="PEMC_BaseTool">
 		<defName>Dll_Tool_AngleGrinder</defName>
 		<label>angle grinder</label>
 		<description>Handheld power tool used for abrasive cutting and polishing.</description>
-        <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
 			<texPath>Things/Weapons/Tools/angleGrinder</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<soundInteract>InteractMelee</soundInteract>
 		<stuffCategories>
 			<li>StrongMetallic</li>
             <li>RuggedMetallic</li>
@@ -397,29 +381,25 @@
                 <defaultSurvivalToolAssignmentTags>
                     <li>Constructor</li>
                 </defaultSurvivalToolAssignmentTags>
+				<toolWearFactor>0.25</toolWearFactor>
             </li>
 		</modExtensions>
-		<thingCategories>
-			<li>SurvivalToolsIndustrial</li>
-		</thingCategories>
 		<recipeMaker>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
-	<!-- _________________________________________________ -->
-	<ThingDef ParentName="BaseTool">
+	<!--============================================-->
+	<ThingDef ParentName="PEMC_BaseTool">
 		<defName>Dll_Tool_SolderingIron</defName>
 		<label>soldering iron</label>
 		<description>Simple tool that melt solder so that it can flow into the joint between two workpieces.</description>
-        <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
 			<texPath>Things/Weapons/Tools/SolderingIron</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<soundInteract>InteractMelee</soundInteract>
 		<stuffCategories>
 			<li>StrongMetallic</li>
             <li>RuggedMetallic</li>
@@ -448,6 +428,7 @@
                 <defaultSurvivalToolAssignmentTags>
                     <li>Crafter</li>
                 </defaultSurvivalToolAssignmentTags>
+				<toolWearFactor>0.25</toolWearFactor>
             </li>
 			<!--<li Class="CombatExtended.GunDrawExtension">
 				<DrawSize>0.4,0.4</DrawSize>
@@ -490,27 +471,22 @@
 				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 			</li>
 		</tools>
-		<thingCategories>
-			<li>SurvivalToolsIndustrial</li>
-		</thingCategories>
 		<recipeMaker>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
-	<!-- _________________________________________________ -->
-	<ThingDef ParentName="BaseTool">
+	<!--============================================-->
+	<ThingDef ParentName="PEMC_BaseTool">
 		<defName>Dll_Tool_ToolBox</defName>
 		<label>toolbox</label>
 		<description>Roomy case with different tools for work.</description>
-        <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
 			<texPath>Things/Weapons/Tools/ToolBox</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<soundInteract>InteractMelee</soundInteract>
 		<stuffCategories>
 			<li>StrongMetallic</li>
             <li>RuggedMetallic</li>
@@ -546,6 +522,7 @@
                     <li>Crafter</li>
                     <li>Constructor</li>
                 </defaultSurvivalToolAssignmentTags>
+				<toolWearFactor>0.25</toolWearFactor>
             </li>
 			<!--<li Class="CombatExtended.GunDrawExtension">
 				<DrawSize>0.7,0.7</DrawSize>
@@ -567,27 +544,22 @@
 				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
 			</li>
 		</tools>
-		<thingCategories>
-			<li>SurvivalToolsIndustrial</li>
-		</thingCategories>
 		<recipeMaker>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
-	<!-- _________________________________________________ -->
-	<ThingDef ParentName="BaseTool">
+	<!--============================================-->
+	<ThingDef ParentName="PEMC_BaseTool">
 		<defName>Dll_Tool_Medbag</defName>
 		<label>medical bag</label>
 		<description>Handbag with a bunch of medical tools: different types of scalpel, surgical scissors, hemostats, endoscope, and a bunch of surgical sutures and staples.</description>
-        <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
 			<texPath>Things/Weapons/Tools/MedTools</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<soundInteract>InteractMelee</soundInteract>
 		<stuffCategories>
 			<li>StrongMetallic</li>
             <li>RuggedMetallic</li>
@@ -617,6 +589,10 @@
                     <MedicalOperationSpeed>1.2</MedicalOperationSpeed>
                     <MedicalSurgerySuccessChance>1.2</MedicalSurgerySuccessChance>
                 </baseWorkStatFactors>
+				<defaultSurvivalToolAssignmentTags>
+					<li>Tend</li>
+				</defaultSurvivalToolAssignmentTags>
+				<toolWearFactor>0.25</toolWearFactor>
             </li>
 			<!--<li Class="CombatExtended.GunDrawExtension">
 				<DrawSize>0.65,0.65</DrawSize>
@@ -636,14 +612,11 @@
 				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 			</li>
 		</tools>
-		<thingCategories>
-			<li>SurvivalToolsIndustrial</li>
-		</thingCategories>
 		<recipeMaker>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
-	<!-- _________________________________________________ -->
+	<!--============================================-->
 </Defs>

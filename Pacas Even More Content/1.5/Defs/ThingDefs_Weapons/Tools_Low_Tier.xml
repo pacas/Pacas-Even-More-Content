@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<!-- _________________________________________________ -->
-	<ThingDef ParentName="BaseTool">
+	<!--============================================-->
+	<ThingDef ParentName="PEMC_BaseTool">
 		<defName>Dll_Tool_Shovel</defName>
 		<label>shovel</label>
-		<description>Little spade for digging.</description>
-        <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
+		<description>Little shovel for digging trenches.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Tools/Shovel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<soundInteract>InteractMelee</soundInteract>
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
@@ -68,9 +66,6 @@
 				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 			</li>
 		</tools>
-		<thingCategories>
-			<li>SurvivalToolsIndustrial</li>
-		</thingCategories>
         <modExtensions>
 			<li Class="SurvivalToolsLite.SurvivalToolProperties">
                 <baseWorkStatFactors>
@@ -81,6 +76,7 @@
                 <defaultSurvivalToolAssignmentTags>
                     <li>Constructor</li>
                 </defaultSurvivalToolAssignmentTags>
+				<toolWearFactor>0.35</toolWearFactor>
             </li>
 		</modExtensions>
 		<recipeMaker>

@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
-	<!-- _________________________________________________ -->
-	<ThingDef ParentName="BaseTool">
+	<!--============================================-->
+	<ThingDef ParentName="PEMC_BaseTool">
 		<defName>Dll_Tool_PDA</defName>
 		<label>pocket AI assistant</label>
 		<description>Pocket personal digital assistant. Increase processing speed of big data — invaluable in science and geological researches.</description>
-        <thingClass>SurvivalToolsLite.SurvivalTool</thingClass>
 		<graphicData>
 			<texPath>Things/Weapons/Tools/PDA</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
-		<soundInteract>InteractMelee</soundInteract>
 		<stuffCategories>
 			<li>StrongMetallic</li>
 		</stuffCategories>
@@ -42,6 +40,7 @@
                     <DeepDrillingSpeed>1.5</DeepDrillingSpeed>
                     <ResearchSpeed>1.5</ResearchSpeed>
                 </baseWorkStatFactors>
+				<toolWearFactor>0.2</toolWearFactor>
             </li>
 		</modExtensions>
 		<tools>
@@ -57,9 +56,9 @@
 				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
 			</li>
 		</tools>
-		<thingCategories>
+		<!--<thingCategories>
 			<li>SurvivalToolsIndustrial</li>
-		</thingCategories>
+		</thingCategories>-->
 		<recipeMaker>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
