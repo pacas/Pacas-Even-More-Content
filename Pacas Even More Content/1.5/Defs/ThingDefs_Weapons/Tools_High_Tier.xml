@@ -56,9 +56,9 @@
 				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
 			</li>
 		</tools>
-		<!--<thingCategories>
-			<li>SurvivalToolsIndustrial</li>
-		</thingCategories>-->
+		<thingCategories Inherit="False">
+			<li>SurvivalToolsSpacer</li>
+		</thingCategories>
 		<recipeMaker>
 			<recipeUsers>
 				<li>ElectricSmithy</li>
