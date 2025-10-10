@@ -24,13 +24,12 @@
 			<Bulk>5.5</Bulk>
 			<Mass>3</Mass>
 			<MeleeCounterParryBonus>0.1</MeleeCounterParryBonus>
-            <ToolEffectivenessFactor>1.2</ToolEffectivenessFactor>
+            <ToolEffectivenessFactor>1</ToolEffectivenessFactor>
 		</statBases>
 		<equippedAngleOffset>-45</equippedAngleOffset>
 		<techLevel>Industrial</techLevel>
 		<weaponTags>
 			<li>MidworldMelee</li>
-			<li>CE_Sidearm_Melee</li>
 		</weaponTags>
 		<tools>
 			<li Class="CombatExtended.ToolCE">
@@ -69,9 +68,6 @@
 				<linkedBodyPartsGroup>Point</linkedBodyPartsGroup>
 			</li>
 		</tools>
-		<equippedStatOffsets>
-			<PawnTrapSpringChance>-0.7</PawnTrapSpringChance>
-		</equippedStatOffsets>
 		<thingCategories>
 			<li>SurvivalToolsIndustrial</li>
 		</thingCategories>

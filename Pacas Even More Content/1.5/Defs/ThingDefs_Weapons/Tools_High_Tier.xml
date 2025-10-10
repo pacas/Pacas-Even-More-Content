@@ -29,14 +29,14 @@
 			<Bulk>0.5</Bulk>
 			<Mass>0.5</Mass>
 			<MeleeCounterParryBonus>0.1</MeleeCounterParryBonus>
-            <ToolEffectivenessFactor>1.3</ToolEffectivenessFactor>
+            <ToolEffectivenessFactor>1</ToolEffectivenessFactor>
 		</statBases>
 		<equippedAngleOffset>-35</equippedAngleOffset>
 		<techLevel>Spacer</techLevel>
 		<modExtensions>
-			<!--<li Class="CombatExtended.GunDrawExtension">
+			<li Class="CombatExtended.GunDrawExtension">
 				<DrawSize>0.5,0.5</DrawSize>
-			</li>-->
+			</li>
             <li Class="SurvivalToolsLite.SurvivalToolProperties">
                 <baseWorkStatFactors>
                     <DeepDrillingSpeed>1.5</DeepDrillingSpeed>
