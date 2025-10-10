@@ -2,7 +2,7 @@
 <Defs>
 	<!--============================================-->
 	<ThingDef ParentName="PEMC_BaseTool">
-		<defName>Dll_Tool_Chainsaw</defName>
+		<defName>PEMC_Tool_Chainsaw</defName>
 		<label>chainsaw</label>
 		<description>Portable saw that cuts with a set of rotating chain with teeth. Hard to use as a weapon, but if enemy is right here, and you don't have a gun...</description>
 		<graphicData>
@@ -77,7 +77,7 @@
 	</ThingDef>
 	<!--============================================-->
 	<ThingDef ParentName="PEMC_BaseTool">
-		<defName>Dll_Tool_Jackhammer</defName>
+		<defName>PEMC_Tool_Jackhammer</defName>
 		<label>jackhammer</label>
 		<description>Pneumatic tool that combines a hammer directly with a chisel.</description>
 		<graphicData>
@@ -152,7 +152,7 @@
 	</ThingDef>
 	<!--============================================-->
 	<ThingDef ParentName="PEMC_BaseTool">
-		<defName>Dll_Tool_Agriculture</defName>
+		<defName>PEMC_Tool_Agriculture</defName>
 		<label>cultivator</label>
 		<description>One of the best tools for soil cultivation, also can be used as planter, irrigator, and harvester. Too heavy for using as a weapon.</description>
 		<graphicData>
@@ -241,7 +241,7 @@
 	</ThingDef>
 	<!--============================================-->
 	<ThingDef ParentName="PEMC_BaseTool">
-		<defName>Dll_Tool_LeafBlower</defName>
+		<defName>PEMC_Tool_LeafBlower</defName>
 		<label>leaf blower</label>
 		<description>Powerful tool for cleaning large areas.</description>
 		<graphicData>
@@ -315,7 +315,7 @@
 	</ThingDef>
 	<!--============================================-->
 	<ThingDef ParentName="PEMC_BaseTool">
-		<defName>Dll_Tool_AngleGrinder</defName>
+		<defName>PEMC_Tool_AngleGrinder</defName>
 		<label>angle grinder</label>
 		<description>Handheld power tool used for abrasive cutting and polishing.</description>
 		<graphicData>
@@ -392,7 +392,7 @@
 	</ThingDef>
 	<!--============================================-->
 	<ThingDef ParentName="PEMC_BaseTool">
-		<defName>Dll_Tool_SolderingIron</defName>
+		<defName>PEMC_Tool_SolderingIron</defName>
 		<label>soldering iron</label>
 		<description>Simple tool that melt solder so that it can flow into the joint between two workpieces.</description>
 		<graphicData>
@@ -479,7 +479,7 @@
 	</ThingDef>
 	<!--============================================-->
 	<ThingDef ParentName="PEMC_BaseTool">
-		<defName>Dll_Tool_ToolBox</defName>
+		<defName>PEMC_Tool_ToolBox</defName>
 		<label>toolbox</label>
 		<description>Roomy case with different tools for work.</description>
 		<graphicData>
@@ -552,7 +552,7 @@
 	</ThingDef>
 	<!--============================================-->
 	<ThingDef ParentName="PEMC_BaseTool">
-		<defName>Dll_Tool_Medbag</defName>
+		<defName>PEMC_Tool_Medbag</defName>
 		<label>medical bag</label>
 		<description>Handbag with a bunch of medical tools: different types of scalpel, surgical scissors, hemostats, endoscope, and a bunch of surgical sutures and staples.</description>
 		<graphicData>

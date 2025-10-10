@@ -2,7 +2,7 @@
 <Defs>
 	<!--============================================-->
 	<ThingDef ParentName="PEMC_BaseTool">
-		<defName>Dll_Tool_PDA</defName>
+		<defName>PEMC_Tool_PDA</defName>
 		<label>pocket AI assistant</label>
 		<description>Pocket personal digital assistant. Increase processing speed of big data — invaluable in science and geological researches.</description>
 		<graphicData>
