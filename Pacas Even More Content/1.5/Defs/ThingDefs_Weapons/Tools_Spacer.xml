@@ -34,7 +34,7 @@
 		<techLevel>Spacer</techLevel>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
-				<DrawSize>0.5,0.5</DrawSize>
+				<DrawSize>0.8,0.8</DrawSize>
 			</li>
             <li Class="SurvivalToolsLite.SurvivalToolProperties">
                 <baseWorkStatFactors>
@@ -62,7 +62,7 @@
 		</thingCategories>
 		<recipeMaker>
 			<recipeUsers>
-				<li>ElectricSmithy</li>
+				<li>TableElectronics</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
@@ -88,7 +88,7 @@
 			<Microchips>1</Microchips>
 		</costList>
 		<statBases>
-			<WorkToMake>25000</WorkToMake>
+			<WorkToMake>16000</WorkToMake>
 			<Bulk>2</Bulk>
 			<Mass>1.5</Mass>
 			<MeleeCounterParryBonus>0.5</MeleeCounterParryBonus>
@@ -125,7 +125,7 @@
 		</thingCategories>
 		<recipeMaker>
 			<recipeUsers>
-				<li>ElectricSmithy</li>
+				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>

@@ -72,7 +72,7 @@
 		</modExtensions>
 		<recipeMaker>
 			<recipeUsers>
-				<li>ElectricSmithy</li>
+				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
@@ -148,7 +148,7 @@
 		</modExtensions>
 		<recipeMaker>
 			<recipeUsers>
-				<li>ElectricSmithy</li>
+				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
@@ -238,7 +238,7 @@
 		</modExtensions>
 		<recipeMaker>
 			<recipeUsers>
-				<li>ElectricSmithy</li>
+				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
@@ -313,7 +313,7 @@
 		</modExtensions>
 		<recipeMaker>
 			<recipeUsers>
-				<li>ElectricSmithy</li>
+				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
@@ -391,7 +391,7 @@
 		</modExtensions>
 		<recipeMaker>
 			<recipeUsers>
-				<li>ElectricSmithy</li>
+				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
@@ -479,7 +479,7 @@
 		</tools>
 		<recipeMaker>
 			<recipeUsers>
-				<li>ElectricSmithy</li>
+				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
@@ -554,7 +554,7 @@
 		</tools>
 		<recipeMaker>
 			<recipeUsers>
-				<li>ElectricSmithy</li>
+				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
@@ -575,11 +575,11 @@
 		</stuffCategories>
 		<costStuffCount>55</costStuffCount>
 		<costList>
-			<Rubber>15</Rubber>
-			<MedicineIndustrial>10</MedicineIndustrial>
-			<SilverBar>35</SilverBar>
-			<Plastic>15</Plastic>
 			<Cloth>35</Cloth>
+			<Rubber>15</Rubber>
+			<Plastic>15</Plastic>
+			<MedicineIndustrial>10</MedicineIndustrial>
+			<SilverBar>5</SilverBar>
 		</costList>
 		<statBases>
 			<WorkToMake>9000</WorkToMake>
@@ -623,7 +623,7 @@
 		</tools>
 		<recipeMaker>
 			<recipeUsers>
-				<li>ElectricSmithy</li>
+				<li>meditable</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
@@ -678,7 +678,7 @@
 		</modExtensions>
 		<recipeMaker>
 			<recipeUsers>
-				<li>TableStonecutter</li>
+				<li>TableMachining</li>
 			</recipeUsers>
 		</recipeMaker>
 	</ThingDef>
