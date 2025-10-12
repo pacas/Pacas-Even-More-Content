@@ -3,7 +3,7 @@
     
     <ThingDef>
         <defName>LivingFrostPowder</defName>
-        <label>Frost powder</label>
+        <label>frost powder</label>
         <description>Frost powder made from throbbing heart of a thawed Kirin. All alchemical properties were sealed after powdering, and its no longer emits frost aura, but also will expire not so quickly.</description>
         <thingClass>ThingWithComps</thingClass>
         <comps>
@@ -49,7 +49,7 @@
 
     <ThingDef>
         <defName>LivingFirePowder</defName>
-        <label>Flame powder</label>
+        <label>flame powder</label>
         <description>Fire powder made from vibrating heart of an extinguished Feenix. All alchemical properties were sealed after powdering, and its no longer emits flame aura, but also will expire not so quickly.</description>
         <thingClass>ThingWithComps</thingClass>
         <comps>

@@ -4,7 +4,7 @@
 	<ThingDef ParentName="PEMC_BaseTool">
 		<defName>PEMC_Tool_Shovel</defName>
 		<label>shovel</label>
-		<description>Little shovel for digging trenches.</description>
+		<description>A universal argument in a dispute with the land that always wins. It digs holes, buries problems, and sometimes serves as a support for a tired colonist.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Tools/Shovel</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

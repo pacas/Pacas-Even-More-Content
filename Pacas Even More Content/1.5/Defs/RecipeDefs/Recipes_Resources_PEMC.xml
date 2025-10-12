@@ -2,7 +2,7 @@
 <Defs>
     <RecipeDef>
         <defName>MakeLivingFrostPowder</defName>
-        <label>Grind Kirin heart</label>
+        <label>grind Kirin heart</label>
         <description>Grind Kirin heart into frost powder. Produces 20.</description>
         <jobString>Grinding Kirin heart into frost powder.</jobString>
         <workAmount>2800</workAmount>
@@ -41,7 +41,7 @@
     
     <RecipeDef>
         <defName>MakeLivingFirePowder</defName>
-        <label>Grind Feenix heart</label>
+        <label>grind Feenix heart</label>
         <description>Grind Feenix heart into flame powder. Produces 20.</description>
         <jobString>Grinding Feenix heart into flame powder.</jobString>
         <workAmount>2800</workAmount>
