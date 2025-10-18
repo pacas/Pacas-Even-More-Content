@@ -1,11 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   
+  <!-- medieval -->
+  
   <PEMC_Tool_Shovel.label>лопата</PEMC_Tool_Shovel.label>
   <PEMC_Tool_Shovel.description>Универсальный аргумент в споре с землей, который всегда побеждает. Копает ямы, закапывает проблемы и иногда служит опорой уставшему колонисту.</PEMC_Tool_Shovel.description>
   <PEMC_Tool_Shovel.tools.0.label>рукоять</PEMC_Tool_Shovel.tools.0.label>
   <PEMC_Tool_Shovel.tools.1.label>лезвие</PEMC_Tool_Shovel.tools.1.label>
   <PEMC_Tool_Shovel.tools.2.label>ковш</PEMC_Tool_Shovel.tools.2.label>
+
+  <PEMC_Tool_Trowel.label>мастерок каменщика</PEMC_Tool_Trowel.label>
+  <PEMC_Tool_Trowel.description>Металлический язык, который говорит со стенами на языке раствора. Превращает кучу кирпичей в дом, а неумелого мастера — в скульптора абстракционизма.</PEMC_Tool_Trowel.description>
+  <PEMC_Tool_Trowel.tools.0.label>мастерок</PEMC_Tool_Trowel.tools.0.label>
+
+  <!-- industrial -->
 
   <PEMC_Tool_Chainsaw.label>бензопила</PEMC_Tool_Chainsaw.label>
   <PEMC_Tool_Chainsaw.description>Рычащий дровосек с аппетитом тираннозавра и манерами панка. За минуту превращает дерево в дрова, а тишину леса — в концерт тяжёлого металла.</PEMC_Tool_Chainsaw.description>
@@ -46,14 +54,20 @@
   <PEMC_Tool_Medbag.label>медицинская сумка</PEMC_Tool_Medbag.label>
   <PEMC_Tool_Medbag.description>Походный госпиталь размером с сумку, хранящий ответы на все «ой» и «ай». Внутри бинты, пластыри и надежда, что вам не понадобится ничего серьёзнее.</PEMC_Tool_Medbag.description>
   <PEMC_Tool_Medbag.tools.0.label>сумка</PEMC_Tool_Medbag.tools.0.label>
-  
-  <PEMC_Tool_PDA.label>КПК</PEMC_Tool_PDA.label>
-  <PEMC_Tool_PDA.description>Карманный всезнайка, который умнее вас, но тактичнее не показывает это. Отвечает на вопросы, рассчитывает глубину подземных залежей и иногда делает вид, что не слышал вашу предыдущую глупость.</PEMC_Tool_PDA.description>
-  <PEMC_Tool_PDA.tools.0.label>корпус</PEMC_Tool_PDA.tools.0.label>
+
+  <PEMC_Tool_Scalpel.label>скальпель</PEMC_Tool_Scalpel.label>
+  <PEMC_Tool_Scalpel.description>Хирургическая точность в руках профессионала, опасная бритва в руках любителя. Режет так тонко, что материя даже не успевает понять, что её разделили.</PEMC_Tool_Scalpel.description>
+  <PEMC_Tool_Scalpel.tools.0.label>лезвие</PEMC_Tool_Scalpel.tools.0.label>
 
   <PEMC_Tool_DuckTape.label>изолента</PEMC_Tool_DuckTape.label>
   <PEMC_Tool_DuckTape.description>Серебряная надежда человечества, способная склеить все, кроме разбитого сердца. Если что-то шатается, скрипит или отваливается — она уже в пути, но заканчивается именно тогда, когда осталось доклеить последний сантиметр.</PEMC_Tool_DuckTape.description>
   <PEMC_Tool_DuckTape.tools.0.label>изолента</PEMC_Tool_DuckTape.tools.0.label>
+  
+  <!-- spacer -->
+
+  <PEMC_Tool_PDA.label>КПК</PEMC_Tool_PDA.label>
+  <PEMC_Tool_PDA.description>Карманный всезнайка, который умнее вас, но тактичнее не показывает это. Отвечает на вопросы, рассчитывает глубину подземных залежей и иногда делает вид, что не слышал вашу предыдущую глупость.</PEMC_Tool_PDA.description>
+  <PEMC_Tool_PDA.tools.0.label>корпус</PEMC_Tool_PDA.tools.0.label>
 
   <PEMC_Tool_Pan.label>умная сковорода</PEMC_Tool_Pan.label>
   <PEMC_Tool_Pan.description>Кухонный гаджет с самомнением, который знает температуру лучше вас. Жарит яичницу, отслеживает состояние и одновременно напоминает о калориях после двойного стейка из муффало.</PEMC_Tool_Pan.description>

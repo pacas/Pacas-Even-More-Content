@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 	<!--============================================-->
+	<!--shovel-->
 	<ThingDef ParentName="PEMC_BaseTool">
 		<defName>PEMC_Tool_Shovel</defName>
 		<label>shovel</label>
@@ -24,8 +25,8 @@
 			<MeleeCounterParryBonus>0.1</MeleeCounterParryBonus>
             <ToolEffectivenessFactor>1</ToolEffectivenessFactor>
 		</statBases>
-		<equippedAngleOffset>-45</equippedAngleOffset>
-		<techLevel>Industrial</techLevel>
+		<equippedAngleOffset>25</equippedAngleOffset>
+		<techLevel>Medieval</techLevel>
 		<weaponTags>
 			<li>MidworldMelee</li>
 		</weaponTags>
@@ -69,14 +70,91 @@
         <modExtensions>
 			<li Class="SurvivalToolsLite.SurvivalToolProperties">
                 <baseWorkStatFactors>
-                    <SmoothingSpeed>1.2</SmoothingSpeed>
+                    <SmoothingSpeed>1.15</SmoothingSpeed>
                     <ConstructionSpeed>1.1</ConstructionSpeed>
-                    <CleaningSpeed>1.2</CleaningSpeed>
+                    <CleaningSpeed>1.15</CleaningSpeed>
                 </baseWorkStatFactors>
                 <defaultSurvivalToolAssignmentTags>
                     <li>Constructor</li>
                 </defaultSurvivalToolAssignmentTags>
             </li>
+		</modExtensions>
+		<thingCategories Inherit="False">
+			<li>SurvivalToolsNeolithic</li>
+		</thingCategories>
+		<recipeMaker>
+			<recipeUsers>
+				<li>ElectricSmithy</li>
+				<li>FueledSmithy</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
+	<!--============================================-->
+	<!--trowel-->
+	<ThingDef ParentName="PEMC_BaseTool">
+		<defName>PEMC_Tool_Trowel</defName>
+		<label>masons trowel</label>
+		<description>A metallic tongue that speaks to the walls in the language of mortar. It transforms a pile of bricks into a house, and an inept craftsman into an abstract sculptor.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Tools/Trowel</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<stuffCategories>
+			<li>StrongMetallic</li>
+			<li>RuggedMetallic</li>
+		</stuffCategories>
+		<costStuffCount>25</costStuffCount>
+		<costList>
+			<WoodPlank>5</WoodPlank>
+			<ComponentIndustrial>2</ComponentIndustrial>
+		</costList>
+		<statBases>
+			<WorkToMake>3000</WorkToMake>
+			<Bulk>1.5</Bulk>
+			<Mass>1</Mass>
+			<MeleeCounterParryBonus>0.1</MeleeCounterParryBonus>
+			<ToolEffectivenessFactor>1</ToolEffectivenessFactor>
+		</statBases>
+		<equippedAngleOffset>35</equippedAngleOffset>
+		<techLevel>Medieval</techLevel>
+		<weaponTags>
+			<li>MidworldMelee</li>
+		</weaponTags>
+		<tools>
+			<li Class="CombatExtended.ToolCE">
+				<label>handle</label>
+				<capacities>
+					<li>Poke</li>
+				</capacities>
+				<power>4</power>
+				<cooldownTime>4.25</cooldownTime>
+				<chanceFactor>0.4</chanceFactor>
+				<armorPenetrationBlunt>3</armorPenetrationBlunt>
+				<linkedBodyPartsGroup>Handle</linkedBodyPartsGroup>
+			</li>
+			<li Class="CombatExtended.ToolCE">
+				<label>blade</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>0.1</cooldownTime>
+				<chanceFactor>0.4</chanceFactor>
+				<armorPenetrationBlunt>0.1</armorPenetrationBlunt>
+				<armorPenetrationSharp>0.1</armorPenetrationSharp>
+				<linkedBodyPartsGroup>Blade</linkedBodyPartsGroup>
+			</li>
+		</tools>
+		<modExtensions>
+			<li Class="SurvivalToolsLite.SurvivalToolProperties">
+				<baseWorkStatFactors>
+					<ConstructionSpeed>1.35</ConstructionSpeed>
+				</baseWorkStatFactors>
+				<defaultSurvivalToolAssignmentTags>
+					<li>Constructor</li>
+				</defaultSurvivalToolAssignmentTags>
+			</li>
 		</modExtensions>
 		<thingCategories Inherit="False">
 			<li>SurvivalToolsNeolithic</li>

@@ -38,8 +38,8 @@
 			</li>
             <li Class="SurvivalToolsLite.SurvivalToolProperties">
                 <baseWorkStatFactors>
+					<ResearchSpeed>1.5</ResearchSpeed>
                     <DeepDrillingSpeed>1.5</DeepDrillingSpeed>
-                    <ResearchSpeed>1.5</ResearchSpeed>
                 </baseWorkStatFactors>
 				<toolWearFactor>0.2</toolWearFactor>
             </li>
