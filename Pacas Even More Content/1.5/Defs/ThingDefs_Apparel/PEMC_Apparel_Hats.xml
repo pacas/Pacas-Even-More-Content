@@ -39,6 +39,7 @@
             <MeleeDodgeChance>0.5</MeleeDodgeChance>
             <ShootingAccuracyPawn>-1</ShootingAccuracyPawn>
             <AimingDelayFactor>0.22</AimingDelayFactor>
+            <Suppressability>-0.3</Suppressability>
         </equippedStatOffsets>
         <generateCommonality>0.12</generateCommonality>
         <apparel>
