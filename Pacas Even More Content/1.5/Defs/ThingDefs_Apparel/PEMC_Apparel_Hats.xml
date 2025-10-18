@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <ThingDef ParentName="ApparelNeoliticBase">
+        <defName>PEMC_Apparel_StrawHat</defName>
+        <label>straw hat</label>
+        <description>A conical hat made of twined bast or rush, which looks like roof thatching. Not very sturdy, but keeps the sun off.</description>
+        <graphicData>
+            <texPath>Things/Apparel/StrawHat/StrawHat</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <stuffCategories>
+            <li>Leathery</li>
+        </stuffCategories>
+        <costStuffCount>5</costStuffCount>
+        <costList>
+            <Hay>50</Hay>
+        </costList>
+        <statBases>
+            <WorkToMake>1500</WorkToMake>
+            <MaxHitPoints>15</MaxHitPoints>
+            <Flammability>2.0</Flammability>
+            <Mass>0.2</Mass>
+            <Bulk>2</Bulk>
+            <WornBulk>0.5</WornBulk>
+            <EquipDelay>0.3</EquipDelay>
+            <Insulation_Heat>8</Insulation_Heat>
+            <Insulation_Cold>2</Insulation_Cold>
+            <StuffEffectMultiplierInsulation_Cold>0.01</StuffEffectMultiplierInsulation_Cold>
+            <StuffEffectMultiplierInsulation_Heat>0.01</StuffEffectMultiplierInsulation_Heat>
+            <ArmorRating_Sharp>0</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0</ArmorRating_Blunt>
+            <ArmorRating_Heat>0</ArmorRating_Heat>
+        </statBases>
+        <equippedStatOffsets>
+            <MoveSpeed>-0.02</MoveSpeed>
+            <SocialImpact>-0.05</SocialImpact>
+            <TameAnimalChance>0.2</TameAnimalChance>
+            <MeleeHitChance>2</MeleeHitChance>
+            <MeleeDodgeChance>0.5</MeleeDodgeChance>
+            <ShootingAccuracyPawn>-1</ShootingAccuracyPawn>
+            <AimingDelayFactor>0.22</AimingDelayFactor>
+        </equippedStatOffsets>
+        <generateCommonality>0.12</generateCommonality>
+        <apparel>
+            <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <careIfWornByCorpse>false</careIfWornByCorpse>
+            <ideoDesireAllowedFactionCategoryTags>
+                <li>Tribal</li>
+            </ideoDesireAllowedFactionCategoryTags>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Apparel/StrawHat/StrawHat</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+            <tags>
+                <li>Tribal</li>
+            </tags>
+            <defaultOutfitTags>
+                <li>Worker</li>
+            </defaultOutfitTags>
+        </apparel>
+        <thingCategories>
+            <li>HeaddressCat</li>
+        </thingCategories>
+        <recipeMaker>
+            <researchPrerequisite>Apparel_A1</researchPrerequisite>
+        </recipeMaker>
+    </ThingDef>
+</Defs>
