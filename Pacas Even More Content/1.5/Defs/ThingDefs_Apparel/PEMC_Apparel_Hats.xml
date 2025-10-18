@@ -3,7 +3,7 @@
     <ThingDef ParentName="ApparelNeoliticBase">
         <defName>PEMC_Apparel_StrawHat</defName>
         <label>straw hat</label>
-        <description>A conical hat made of twined bast or rush, which looks like roof thatching. Not very sturdy, but keeps the sun off.</description>
+        <description>A summer sun shield that turns anyone into a fine fighter. Protects the head — but only until the first blow.</description>
         <graphicData>
             <texPath>Things/Apparel/StrawHat/StrawHat</texPath>
             <graphicClass>Graphic_Single</graphicClass>
