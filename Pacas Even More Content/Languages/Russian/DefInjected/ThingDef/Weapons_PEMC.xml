@@ -43,5 +43,8 @@
     <PEMC_Gun_Acid_Scourge.tools.0.label>приклад</PEMC_Gun_Acid_Scourge.tools.0.label>
     <PEMC_Gun_Acid_Scourge.tools.1.label>ствол</PEMC_Gun_Acid_Scourge.tools.1.label>
     <PEMC_Gun_Acid_Scourge.tools.2.label>дуло</PEMC_Gun_Acid_Scourge.tools.2.label>
+	
+	<Weapon_GrenadeWD40Liquid.label>Смазка WD-40 Жидкая</Weapon_GrenadeWD40Liquid.label>
+    <Weapon_GrenadeWD40Liquid.description>Грубая имитация знаменитой смазки, собранная из того, что было под рукой. Пахнет маслом, отчаянием и смутной надеждой. Однако в этом богом забытом уголке мира сгодилось бы и похуже.</Weapon_GrenadeWD40Liquid.description>
 
 </LanguageData>
