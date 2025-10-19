@@ -18,5 +18,15 @@
     <FireBurn.stages.2.label>огненные ожоги</FireBurn.stages.2.label>
     <FireBurn.stages.3.label>горит изнутри</FireBurn.stages.3.label>
     <FireBurn.stages.4.label>пылает</FireBurn.stages.4.label>
+	
+	
+  <LubricantSoaked.label>пропитан жидкой смазкой</LubricantSoaked.label>
+  <LubricantSoaked.description>Пропитан жидкой смазкой</LubricantSoaked.description>
+  
+  <!-- Стадии эффекта -->
+  <LubricantSoaked.stages.minor.label>легко</LubricantSoaked.stages.minor.label>
+  <LubricantSoaked.stages.dripping.label>капельно</LubricantSoaked.stages.dripping.label>
+  <LubricantSoaked.stages.soaked.label>пропитано</LubricantSoaked.stages.soaked.label>
+  <LubricantSoaked.stages.drenched.label>промокло</LubricantSoaked.stages.drenched.label>
 
 </LanguageData>
