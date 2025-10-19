@@ -8,7 +8,7 @@
         <li>1.5</li>
     </supportedVersions>
     <packageId>hmc.pacas.evenmorecontent</packageId>
-    <description>Even more content, mostly focused on elemental crafting.
+    <description>Even more content, mostly focused on random ideas.
         This mod adds:
         - Kirin and Feenix hearts processing
         - Elemental and bio weapons
@@ -17,6 +17,10 @@
         - Reinforced bridges
         - New oil refiners
         - Crafting fossils and crystals
+        - New rituals
+        - More tools
+        - More apparel
+        - Stupid jokes in descriptions
 
         Больше контента, больше!
         Этот мод добавляет:
@@ -27,6 +31,10 @@
         - Усиленные мосты
         - Новые переработчики нефти
         - Крафт окаменелостей и кристаллов
+        - Новые ритуалы
+        - Больше инструментов
+        - Больше одежды
+        - Глупые шутки в описаниях
     </description>
     <modDependencies>
         <li>
@@ -71,4 +79,7 @@
         <li>trinity.runtimegcupdated</li>
         <li>krkr.rocketman</li>
     </loadBefore>
+	<incompatibleWith>
+		<li>HSK.More.Tools.Continued</li>
+	</incompatibleWith>
 </ModMetaData>

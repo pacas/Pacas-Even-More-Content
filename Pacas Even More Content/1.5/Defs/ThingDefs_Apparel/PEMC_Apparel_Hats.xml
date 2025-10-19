@@ -43,6 +43,7 @@
         </equippedStatOffsets>
         <generateCommonality>0.12</generateCommonality>
         <apparel>
+            <useWornGraphicMask>True</useWornGraphicMask>
             <countsAsClothingForNudity>false</countsAsClothingForNudity>
             <careIfWornByCorpse>false</careIfWornByCorpse>
             <ideoDesireAllowedFactionCategoryTags>

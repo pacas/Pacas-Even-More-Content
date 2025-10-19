@@ -12,6 +12,7 @@ This mod adds:
 * Crafting fossils and crystals
 * New rituals
 * More tools
+* More apparel
 * Stupid jokes in descriptions
 
 <br>
@@ -28,4 +29,5 @@ This mod adds:
 * Крафт окаменелостей и кристаллов
 * Новые ритуалы
 * Больше инструментов
+* Больше одежды
 * Глупые шутки в описаниях
