@@ -77,4 +77,58 @@
         </recipeUsers>
         <researchPrerequisite>Chemistry_C3</researchPrerequisite>
     </RecipeDef>
+	
+	
+	 <RecipeDef>
+        <defName>MakeLubricant</defName>
+        <label>Make Lubricant WD40 Liquid</label>
+        <description>Create a lubricant from simple components. Produces 20.</description>
+        <jobString>Сreates lubrication.</jobString>
+        <workAmount>2800</workAmount>
+        <workSpeedStat>SmithingSpeed</workSpeedStat>
+        <effectWorking>Smith</effectWorking>
+        <soundWorking>Recipe_Cremate</soundWorking>
+        <ingredients>
+            <li>
+                <filter>
+                    <thingDefs>
+                        <li>Tallow</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+			 <li>
+                <filter>
+                    <thingDefs>
+                        <li>Chemfuel</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+			 <li>
+                <filter>
+                    <thingDefs>
+                        <li>ComponentIndustrial</li>
+                    </thingDefs>
+                </filter>
+                <count>5</count>
+            </li>
+        </ingredients>
+        <products>
+            <Weapon_GrenadeWD40Liquid>20</Weapon_GrenadeWD40Liquid>
+        </products>
+        <fixedIngredientFilter>
+            <thingDefs>
+                <li>LivingFire</li>
+            </thingDefs>
+        </fixedIngredientFilter>
+        <skillRequirements>
+            <Crafting>4</Crafting> 
+        </skillRequirements>
+        <workSkill>Crafting</workSkill>
+        <workSkillLearnFactor>0.8</workSkillLearnFactor>
+        <recipeUsers>
+            <li>TableMachining</li>
+        </recipeUsers>
+    </RecipeDef>
 </Defs>

@@ -22,5 +22,21 @@
 			</li>
 		</additionalHediffs>
 	</DamageDef>
-    
+  
+ 
+ <DamageDef>
+   <defName>LubricantSpray</defName>
+    <label>lubricant spray</label>
+    <workerClass>DamageWorker_Extinguish</workerClass>
+    <canInterruptJobs>false</canInterruptJobs>
+    <makesBlood>false</makesBlood>
+    <defaultDamage>999999</defaultDamage>
+    <hediff>LubricantSoaked</hediff>
+    <explosionCellFleck>BlastExtinguisher</explosionCellFleck>
+    <explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
+    <soundExplosion>Explosion_Stun</soundExplosion>
+    <harmsHealth>false</harmsHealth>
+    <combatLogRules>Damage_Extinguish</combatLogRules>
+    <consideredHelpful>true</consideredHelpful>
+  </DamageDef>
 </Defs>
