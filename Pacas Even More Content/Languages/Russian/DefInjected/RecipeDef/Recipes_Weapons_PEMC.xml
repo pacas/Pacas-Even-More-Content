@@ -31,4 +31,10 @@
     <Build_AcidScourge.description>Пистолет-пулемет, стреляющий ядовитыми дротиками с кислотными наконечниками небольшими очередями. Небольшой урон, средняя дальность, средняя скорострельность, но его особые патроны пробивают броню кислотой и отравляют врагов.</Build_AcidScourge.description>
     <Build_AcidScourge.jobString>Собирает кислотный бич</Build_AcidScourge.jobString>
 
+    
+    <MakeLubricant.label>Изготовить смазку WD-40</MakeLubricant.label>
+    <MakeLubricant.description>Создать смазку из простых компонентов. Получается 20 единиц.</MakeLubricant.description>
+    <MakeLubricant.jobString>Изготавливает смазку.</MakeLubricant.jobString>
+
+
 </LanguageData>

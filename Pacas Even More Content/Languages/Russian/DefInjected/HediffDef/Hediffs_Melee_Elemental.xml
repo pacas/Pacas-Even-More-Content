@@ -25,8 +25,8 @@
   
   <!-- Стадии эффекта -->
   <LubricantSoaked.stages.minor.label>легко</LubricantSoaked.stages.minor.label>
-  <LubricantSoaked.stages.dripping.label>капельно</LubricantSoaked.stages.dripping.label>
-  <LubricantSoaked.stages.soaked.label>пропитано</LubricantSoaked.stages.soaked.label>
-  <LubricantSoaked.stages.drenched.label>промокло</LubricantSoaked.stages.drenched.label>
+  <LubricantSoaked.stages.dripping.label>частично</LubricantSoaked.stages.dripping.label>
+  <LubricantSoaked.stages.soaked.label>пропитан</LubricantSoaked.stages.soaked.label>
+  <LubricantSoaked.stages.drenched.label>покрыт полностью</LubricantSoaked.stages.drenched.label>
 
 </LanguageData>
