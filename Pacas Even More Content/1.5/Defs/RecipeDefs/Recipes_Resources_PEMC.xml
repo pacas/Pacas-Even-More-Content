@@ -38,7 +38,7 @@
         </recipeUsers>
         <researchPrerequisite>Chemistry_C3</researchPrerequisite>
     </RecipeDef>
-    
+
     <RecipeDef>
         <defName>MakeLivingFirePowder</defName>
         <label>grind Feenix heart</label>
@@ -77,13 +77,13 @@
         </recipeUsers>
         <researchPrerequisite>Chemistry_C3</researchPrerequisite>
     </RecipeDef>
-	
-	
-	 <RecipeDef>
+
+
+    <RecipeDef>
         <defName>MakeLubricant</defName>
-        <label>Make Lubricant WD40 Liquid</label>
+        <label>Make WD-40 lubricant</label>
         <description>Create a lubricant from simple components. Produces 20.</description>
-        <jobString>Сreates lubrication.</jobString>
+        <jobString>Creates lubrication.</jobString>
         <workAmount>2800</workAmount>
         <workSpeedStat>SmithingSpeed</workSpeedStat>
         <effectWorking>Smith</effectWorking>
@@ -97,7 +97,7 @@
                 </filter>
                 <count>5</count>
             </li>
-			 <li>
+            <li>
                 <filter>
                     <thingDefs>
                         <li>Chemfuel</li>
@@ -105,7 +105,7 @@
                 </filter>
                 <count>5</count>
             </li>
-			 <li>
+            <li>
                 <filter>
                     <thingDefs>
                         <li>ComponentIndustrial</li>
@@ -115,15 +115,17 @@
             </li>
         </ingredients>
         <products>
-            <Weapon_GrenadeWD40Liquid>20</Weapon_GrenadeWD40Liquid>
+            <PEMC_Grenade_WD40>20</PEMC_Grenade_WD40>
         </products>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>LivingFire</li>
+                <li>Tallow</li>
+                <li>Chemfuel</li>
+                <li>ComponentIndustrial</li>
             </thingDefs>
         </fixedIngredientFilter>
         <skillRequirements>
-            <Crafting>4</Crafting> 
+            <Crafting>4</Crafting>
         </skillRequirements>
         <workSkill>Crafting</workSkill>
         <workSkillLearnFactor>0.8</workSkillLearnFactor>
