@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+    <Make_PrimitivePickaxe.label>сделать примитивную кирку</Make_PrimitivePickaxe.label>
+    <Make_PrimitivePickaxe.description>Не обязательно придумывать что-то модное и металлическое, чтобы дробить камень, ведь это может делать другой камень! Как же камни похожи на людей... ну или нет.</Make_PrimitivePickaxe.description>
+    <Make_PrimitivePickaxe.jobString>делает примитивную кирку.</Make_PrimitivePickaxe.jobString>
+
+    <Make_PrimitiveHandaxe.label>сделать примитивный топор</Make_PrimitiveHandaxe.label>
+    <Make_PrimitiveHandaxe.description>Топоры как концепция переоценены. Но в данном случае альтернатив у вас просто нет.</Make_PrimitiveHandaxe.description>
+    <Make_PrimitiveHandaxe.jobString>делает примитивную кирку.</Make_PrimitiveHandaxe.jobString>
+
+    <Make_PrimitiveHammer.label>сделать примитивный молоток</Make_PrimitiveHammer.label>
+    <Make_PrimitiveHammer.description>Если нужно что-то ударить, но это не головы врагов из соседнего племени, а деревянный колышек, то лучше использовать инструмент вместо дубины.</Make_PrimitiveHammer.description>
+    <Make_PrimitiveHammer.jobString>делает примитивную кирку.</Make_PrimitiveHammer.jobString>
+</LanguageData>

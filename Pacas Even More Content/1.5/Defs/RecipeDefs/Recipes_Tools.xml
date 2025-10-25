@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef Abstract="True" Name="PEMC_PrimitiveToolRecipeBase">
+		<workAmount>2000</workAmount>
+		<workSpeedStat>SmithingSpeed</workSpeedStat>
+		<effectWorking>CutStone</effectWorking>
+		<soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+		<workSkill>Crafting</workSkill>
+		<workSkillLearnFactor>0.7</workSkillLearnFactor>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>StoneChunks</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+			</thingDefs>
+			<categories>
+				<li>StoneChunks</li>
+			</categories>
+		</fixedIngredientFilter>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef ParentName="PEMC_PrimitiveToolRecipeBase">
+		<defName>Make_PrimitivePickaxe</defName>
+		<label>make primitive pickaxe</label>
+		<description>You don't have to come up with something fancy and metallic to crush a stone — another stone can do it! How similar stones are to people... or rather not.</description>
+		<jobString>making primitive pickaxe</jobString>
+		<products>
+			<PEMC_Tool_PrimitivePickaxe>1</PEMC_Tool_PrimitivePickaxe>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="PEMC_PrimitiveToolRecipeBase">
+		<defName>Make_PrimitiveHandaxe</defName>
+		<label>make primitive handaxe</label>
+		<description>Axes as a concept are overrated. But in this case, you simply have no alternative.</description>
+		<jobString>making primitive handaxe</jobString>
+		<products>
+			<PEMC_Tool_PrimitiveHandaxe>1</PEMC_Tool_PrimitiveHandaxe>
+		</products>
+	</RecipeDef>
+
+	<RecipeDef ParentName="PEMC_PrimitiveToolRecipeBase">
+		<defName>Make_PrimitiveHammer</defName>
+		<label>make primitive hammer</label>
+		<description>If you need to hit something, but it's not the heads of enemies from a neighboring tribe, but a wooden peg, then it's better to use a tool instead of a club.</description>
+		<jobString>making primitive hammer</jobString>
+		<products>
+			<PEMC_Tool_PrimitiveHammer>1</PEMC_Tool_PrimitiveHammer>
+		</products>
+	</RecipeDef>
+
+</Defs>

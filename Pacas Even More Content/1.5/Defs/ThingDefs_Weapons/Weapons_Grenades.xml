@@ -4,7 +4,7 @@
 
     <ThingDef ParentName="SK_BaseGrenadeProjectile">
         <defName>Proj_GrenadeWD40Liquid</defName>
-        <label>Liquid lubricant WD-40</label>
+        <label>liquid lubricant WD-40</label>
         <graphicData>
             <texPath>Things/Projectile/Grenades/WD-40BR</texPath>
             <graphicClass>Graphic_Single</graphicClass>
@@ -28,7 +28,7 @@
     </ThingDef>
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="BaseGrenadeEquipment">
-        <defName>PEMC_Grenade_WD40</defName>
+        <defName>PEMC_Grenade_Lubricant</defName>
         <equipmentType>Primary</equipmentType>
         <label>WD-40 lubricant</label>
         <description>A crude imitation of the famous lubricant, cobbled together from whatever was available. It smells of oil, despair, and vague hope. However, in this godforsaken corner of the world, even worse would do.</description>

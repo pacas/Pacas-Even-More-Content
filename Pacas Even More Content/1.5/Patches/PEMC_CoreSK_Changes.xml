@@ -9,72 +9,31 @@
                 </value>
             </li>
 
-
             <li Class="PatchOperationRemove">
                 <xpath>Defs/IncidentDef[defName = "FeenixPasses" or defName = "IcicatPasses"]/earliestDay</xpath>
             </li>
+
             
-            <li Class="PatchOperationInsert">
-                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Fortifications"]/defNames/li[text()="CE_BarbedWire"]</xpath>
-                <value>
-                    <li>EmbrasureElemental_Flame</li>
-                    <li>EmbrasureElemental_Frost</li>
-                </value>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                    defName = "TFJ_Tool_Woodcutting_Handaxe" or 
+                    defName="TFJ_Tool_Mining_Pickaxe" or
+                    defName="TFJ_Tool_Hoe" or
+                    defName="TFJ_Tool_Sickle" or
+                    defName="TFJ_Tool_Paxe" or
+                    defName="TFJ_Tool_Building_Hammer"
+                    ]/recipeMaker/recipeUsers/li[text()="CraftingSpot"]</xpath>
             </li>
 
-            <li Class="XmlExtensions.FindMod">
-                <mods>
-                    <li>Tec's Assorted Patches</li>
-                    <li>Power Logics</li>
-                </mods>
-                <logic>and</logic>
-                <caseTrue>
-                    <Operation Class="PatchOperationAdd">
-                        <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="Fuses"]/defNames</xpath>
-                        <value>
-                            <li>Building_RTCircuitBreakerExtra</li>
-                        </value>
-                    </Operation>
-                </caseTrue>
-                <caseFalse>
-                    <Operation Class="PatchOperationAdd">
-                        <xpath>Defs</xpath>
-                        <value>
-                            <ArchitectSense.DesignationSubCategoryDef>
-                                <defName>FusesPPC</defName>
-                                <label>Fuses</label>
-                                <description>Fuses allow for preventative measures to protect your electrical system in case of a power surge.</description>
-                                <defNames>
-                                    <li>Building_RTMakeshiftFuse</li>
-                                    <li>Building_RTCircuitBreaker</li>
-                                    <li>Building_RTCircuitBreakerExtra</li>
-                                </defNames>
-                                <designationCategory>Power</designationCategory>
-                                <debug>false</debug>
-                            </ArchitectSense.DesignationSubCategoryDef>
-                        </value>
-                    </Operation>
-                </caseFalse>
-            </li>
-            
-            <li Class="PatchOperationConditional">
-                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="Columns"]</xpath>
-                <match Class="PatchOperationAdd">
-                    <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="Columns"]/defNames</xpath>
-                    <value>
-                        <li>PEMC_FirefoamColumn</li>
-                    </value>
-                </match>
-            </li>
-
-            <li Class="PatchOperationConditional">
-                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Columns"]</xpath>
-                <match Class="PatchOperationAdd">
-                    <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_Columns"]/defNames</xpath>
-                    <value>
-                        <li>PEMC_FirefoamColumn</li>
-                    </value>
-                </match>
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                    defName = "TFJ_Tool_Woodcutting_Handaxe" or
+                    defName = "TFJ_Tool_Hoe" or
+                    defName = "TFJ_Tool_Sickle" or
+                    defName = "TFJ_Tool_Paxe" or
+                    defName="TFJ_Tool_Mining_Pickaxe" or
+                    defName="TFJ_Tool_Building_Hammer"
+                    ]/stuffCategories/li[text()="Woody" or text()="Stony"]</xpath>
             </li>
         </operations>
     </Operation>

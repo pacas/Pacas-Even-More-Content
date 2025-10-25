@@ -1,5 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+  <!-- primitive -->
+
+  <PEMC_Tool_PrimitivePickaxe.label>примитивная кирка</PEMC_Tool_PrimitivePickaxe.label>
+  <PEMC_Tool_PrimitivePickaxe.description>Не обязательно придумывать что-то модное и металлическое, чтобы дробить камень, ведь это может делать другой камень! Как же камни похожи на людей... ну или нет..</PEMC_Tool_PrimitivePickaxe.description>
+  <PEMC_Tool_PrimitivePickaxe.tools.0.label>рукоять</PEMC_Tool_PrimitivePickaxe.tools.0.label>
+  <PEMC_Tool_PrimitivePickaxe.tools.1.label>кирка</PEMC_Tool_PrimitivePickaxe.tools.1.label>
+
+  <PEMC_Tool_PrimitiveHandaxe.label>примитивный топор</PEMC_Tool_PrimitiveHandaxe.label>
+  <PEMC_Tool_PrimitiveHandaxe.description>Топоры как концепция переоценены. Но в данном случае альтернатив у вас просто нет.</PEMC_Tool_PrimitiveHandaxe.description>
+  <PEMC_Tool_PrimitiveHandaxe.tools.0.label>рукоять</PEMC_Tool_PrimitiveHandaxe.tools.0.label>
+  <PEMC_Tool_PrimitiveHandaxe.tools.1.label>острый камень</PEMC_Tool_PrimitiveHandaxe.tools.1.label>
+
+  <PEMC_Tool_PrimitiveHammer.label>примитивный молоток</PEMC_Tool_PrimitiveHammer.label>
+  <PEMC_Tool_PrimitiveHammer.description>Если нужно что-то ударить, но это не головы врагов из соседнего племени, а деревянный колышек, то лучше использовать инструмент вместо дубины.</PEMC_Tool_PrimitiveHammer.description>
+  <PEMC_Tool_PrimitiveHammer.tools.0.label>рукоять</PEMC_Tool_PrimitiveHammer.tools.0.label>
+  <PEMC_Tool_PrimitiveHammer.tools.1.label>тупой камень</PEMC_Tool_PrimitiveHammer.tools.1.label>
   
   <!-- medieval -->
   

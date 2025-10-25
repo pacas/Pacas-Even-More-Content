@@ -6,7 +6,7 @@
 	<ThingDef ParentName="BaseGun_LongBarreled">
 		<defName>PEMC_Gun_Acid_Scourge</defName>
 		<label>acid scourge</label>
-		<description>A submachinegun that fires poison darts with acid points in small bursts. Small damage, medium range, medium rate of fire, but very special ammo, which pierce through armor witch acid to inflict poison. You don't want to hear their screams.</description>
+		<description>SMG that fires poison darts with acid points in small bursts. Small damage, medium range, medium rate of fire, but special ammo, which pierce through armor witch acid to inflict poison. You don't want to hear their screams.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Ranged/PEMC_Insect_SMG</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

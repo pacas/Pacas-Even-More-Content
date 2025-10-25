@@ -360,8 +360,8 @@
 
 	<StorytellerDef ParentName="BaseStoryteller">
 		<defName>PEMC_Gym</defName>
-		<label>Gym Brothers</label>
-		<description>Be prepared – together they'll offer you the chance to build an empire of pain and muscle, with a special dungeon hidden away in a secluded corner. С'ass they can.</description>
+		<label>Gym Lords</label>
+		<description>Be prepared – this duo doesn't care about collateral damage. Your colony will be the arena for a showdown to determine who's the real boss of the gym. The consequences are likely fatal.</description>
 		<portraitLarge>Storytellers/Gym</portraitLarge>
 		<portraitTiny>Storytellers/GymTiny</portraitTiny>
 		<listOrder>92</listOrder>
