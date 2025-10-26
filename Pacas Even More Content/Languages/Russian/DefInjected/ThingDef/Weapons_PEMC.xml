@@ -49,5 +49,6 @@
     <!-- Grenades -->
     <PEMC_Grenade_Lubricant.label>смазка WD-40</PEMC_Grenade_Lubricant.label>
     <PEMC_Grenade_Lubricant.description>Грубая имитация знаменитой смазки, собранная из того, что было под рукой. Пахнет маслом, отчаянием и смутной надеждой. Однако в этом богом забытом уголке мира сгодилось бы и похуже.</PEMC_Grenade_Lubricant.description>
+    <PEMC_Grenade_Lubricant.verbs.li.label>бросить WD-40</PEMC_Grenade_Lubricant.verbs.li.label>
 
 </LanguageData>
