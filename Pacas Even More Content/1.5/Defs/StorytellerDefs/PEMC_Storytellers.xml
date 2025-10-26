@@ -33,7 +33,7 @@
 				<onDays>5.0</onDays>
 				<offDays>8.0</offDays>
 				<minSpacingDays>1.2</minSpacingDays>
-				<numIncidentsRange>1~2.5</numIncidentsRange>
+				<numIncidentsRange>0.75~2.5</numIncidentsRange>
 				<forceRaidEnemyBeforeDaysPassed>15</forceRaidEnemyBeforeDaysPassed>
 				<disallowedTargetTags>
 					<li>Map_RaidBeacon</li>
@@ -231,7 +231,7 @@
 				<mtbDays>1.2</mtbDays>
 				<maxThreatBigIntervalDays>0.5</maxThreatBigIntervalDays>
 				<minIncChancePopulationIntentFactor>0.2</minIncChancePopulationIntentFactor>
-				<randomPointsFactorRange>0.85~2.5</randomPointsFactorRange>
+				<randomPointsFactorRange>1~3</randomPointsFactorRange>
 				<skipThreatBigIfRaidBeacon>true</skipThreatBigIfRaidBeacon>
 				<categoryWeights>
 					<Misc>8</Misc>
