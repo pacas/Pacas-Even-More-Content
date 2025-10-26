@@ -69,4 +69,14 @@
 		</products>
 	</RecipeDef>
 
+	<RecipeDef ParentName="PEMC_PrimitiveToolRecipeBase">
+		<defName>Make_PrimitiveSickle</defName>
+		<label>make primitive sickle</label>
+		<description>It turns out that cutting wheat ears during harvesting is easier than tearing them by hand or trying to cut them with an axe. What a surprising discovery.</description>
+		<jobString>making primitive sickle</jobString>
+		<products>
+			<PEMC_Tool_PrimitiveSickle>1</PEMC_Tool_PrimitiveSickle>
+		</products>
+	</RecipeDef>
+
 </Defs>

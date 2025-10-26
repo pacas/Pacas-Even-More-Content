@@ -4,7 +4,7 @@
   <!-- primitive -->
 
   <PEMC_Tool_PrimitivePickaxe.label>примитивная кирка</PEMC_Tool_PrimitivePickaxe.label>
-  <PEMC_Tool_PrimitivePickaxe.description>Не обязательно придумывать что-то модное и металлическое, чтобы дробить камень, ведь это может делать другой камень! Как же камни похожи на людей... ну или нет..</PEMC_Tool_PrimitivePickaxe.description>
+  <PEMC_Tool_PrimitivePickaxe.description>Не обязательно придумывать что-то модное и металлическое, чтобы дробить камень, ведь это может делать другой камень! Как же камни похожи на людей... ну или нет.\n\nТакже может быть использована как мотыга.</PEMC_Tool_PrimitivePickaxe.description>
   <PEMC_Tool_PrimitivePickaxe.tools.0.label>рукоять</PEMC_Tool_PrimitivePickaxe.tools.0.label>
   <PEMC_Tool_PrimitivePickaxe.tools.1.label>кирка</PEMC_Tool_PrimitivePickaxe.tools.1.label>
 
@@ -17,6 +17,11 @@
   <PEMC_Tool_PrimitiveHammer.description>Если нужно что-то ударить, но это не головы врагов из соседнего племени, а деревянный колышек, то лучше использовать инструмент вместо дубины.</PEMC_Tool_PrimitiveHammer.description>
   <PEMC_Tool_PrimitiveHammer.tools.0.label>рукоять</PEMC_Tool_PrimitiveHammer.tools.0.label>
   <PEMC_Tool_PrimitiveHammer.tools.1.label>тупой камень</PEMC_Tool_PrimitiveHammer.tools.1.label>
+
+  <PEMC_Tool_PrimitiveSickle.label>примитивный серп</PEMC_Tool_PrimitiveSickle.label>
+  <PEMC_Tool_PrimitiveSickle.description>Оказывается, резать колосья пшеницы при сборе проще, чем рвать руками или пытаться перерезать топором. Неожиданное открытие.</PEMC_Tool_PrimitiveSickle.description>
+  <PEMC_Tool_PrimitiveSickle.tools.0.label>рукоять</PEMC_Tool_PrimitiveSickle.tools.0.label>
+  <PEMC_Tool_PrimitiveSickle.tools.1.label>острый камень</PEMC_Tool_PrimitiveSickle.tools.1.label>
   
   <!-- medieval -->
   
