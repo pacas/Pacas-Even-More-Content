@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- primitive -->
+
+  <PEMC_Tool_PrimitivePickaxe.label>примитивная кирка</PEMC_Tool_PrimitivePickaxe.label>
+  <PEMC_Tool_PrimitivePickaxe.description>Не обязательно придумывать что-то модное и металлическое, чтобы дробить камень, ведь это может делать другой камень! Как же камни похожи на людей... ну или нет.\n\nТакже может быть использована как мотыга.</PEMC_Tool_PrimitivePickaxe.description>
+  <PEMC_Tool_PrimitivePickaxe.tools.0.label>рукоять</PEMC_Tool_PrimitivePickaxe.tools.0.label>
+  <PEMC_Tool_PrimitivePickaxe.tools.1.label>кирка</PEMC_Tool_PrimitivePickaxe.tools.1.label>
+
+  <PEMC_Tool_PrimitiveHandaxe.label>примитивный топор</PEMC_Tool_PrimitiveHandaxe.label>
+  <PEMC_Tool_PrimitiveHandaxe.description>Топоры как концепция переоценены. Но в данном случае альтернатив у вас просто нет.</PEMC_Tool_PrimitiveHandaxe.description>
+  <PEMC_Tool_PrimitiveHandaxe.tools.0.label>рукоять</PEMC_Tool_PrimitiveHandaxe.tools.0.label>
+  <PEMC_Tool_PrimitiveHandaxe.tools.1.label>острый камень</PEMC_Tool_PrimitiveHandaxe.tools.1.label>
+
+  <PEMC_Tool_PrimitiveHammer.label>примитивный молоток</PEMC_Tool_PrimitiveHammer.label>
+  <PEMC_Tool_PrimitiveHammer.description>Если нужно что-то ударить, но это не головы врагов из соседнего племени, а деревянный колышек, то лучше использовать инструмент вместо дубины.</PEMC_Tool_PrimitiveHammer.description>
+  <PEMC_Tool_PrimitiveHammer.tools.0.label>рукоять</PEMC_Tool_PrimitiveHammer.tools.0.label>
+  <PEMC_Tool_PrimitiveHammer.tools.1.label>тупой камень</PEMC_Tool_PrimitiveHammer.tools.1.label>
+
+  <PEMC_Tool_PrimitiveSickle.label>примитивный серп</PEMC_Tool_PrimitiveSickle.label>
+  <PEMC_Tool_PrimitiveSickle.description>Оказывается, резать колосья пшеницы при сборе проще, чем рвать руками или пытаться перерезать топором. Неожиданное открытие.</PEMC_Tool_PrimitiveSickle.description>
+  <PEMC_Tool_PrimitiveSickle.tools.0.label>рукоять</PEMC_Tool_PrimitiveSickle.tools.0.label>
+  <PEMC_Tool_PrimitiveSickle.tools.1.label>острый камень</PEMC_Tool_PrimitiveSickle.tools.1.label>
+  
+  <!-- medieval -->
+  
+  <PEMC_Tool_Shovel.label>лопата</PEMC_Tool_Shovel.label>
+  <PEMC_Tool_Shovel.description>Универсальный аргумент в споре с землей, который всегда побеждает. Копает ямы, закапывает проблемы и иногда служит опорой уставшему колонисту.</PEMC_Tool_Shovel.description>
+  <PEMC_Tool_Shovel.tools.0.label>рукоять</PEMC_Tool_Shovel.tools.0.label>
+  <PEMC_Tool_Shovel.tools.1.label>лезвие</PEMC_Tool_Shovel.tools.1.label>
+  <PEMC_Tool_Shovel.tools.2.label>ковш</PEMC_Tool_Shovel.tools.2.label>
+
+  <PEMC_Tool_Trowel.label>мастерок каменщика</PEMC_Tool_Trowel.label>
+  <PEMC_Tool_Trowel.description>Металлический язык, который говорит со стенами на языке раствора. Превращает кучу кирпичей в дом, а неумелого мастера — в скульптора абстракционизма.</PEMC_Tool_Trowel.description>
+  <PEMC_Tool_Trowel.tools.0.label>мастерок</PEMC_Tool_Trowel.tools.0.label>
+
+  <!-- industrial -->
+
+  <PEMC_Tool_Chainsaw.label>бензопила</PEMC_Tool_Chainsaw.label>
+  <PEMC_Tool_Chainsaw.description>Рычащий дровосек с аппетитом тираннозавра и манерами панка. За минуту превращает дерево в дрова, а тишину леса — в концерт тяжёлого металла.</PEMC_Tool_Chainsaw.description>
+  <PEMC_Tool_Chainsaw.tools.0.label>ручка</PEMC_Tool_Chainsaw.tools.0.label>
+  <PEMC_Tool_Chainsaw.tools.1.label>цепь</PEMC_Tool_Chainsaw.tools.1.label>
+
+  <PEMC_Tool_Jackhammer.label>отбойный молоток</PEMC_Tool_Jackhammer.label>
+  <PEMC_Tool_Jackhammer.description>Разрушитель гор с характером берсерка и децибелами рок-концерта. Если скала не сдается мирно, он применит силу и вибрацию.</PEMC_Tool_Jackhammer.description>
+  <PEMC_Tool_Jackhammer.tools.0.label>ручка</PEMC_Tool_Jackhammer.tools.0.label>
+  <PEMC_Tool_Jackhammer.tools.1.label>пика</PEMC_Tool_Jackhammer.tools.1.label>
+
+  <PEMC_Tool_Agriculture.label>культиватор</PEMC_Tool_Agriculture.label>
+  <PEMC_Tool_Agriculture.description>Механический крот с зубами, который обработает землю быстрее, чем вы моргнете. Превращает целину в пух за час работы и в боль в спине от веса за два.</PEMC_Tool_Agriculture.description>
+  <PEMC_Tool_Agriculture.tools.0.label>ручка</PEMC_Tool_Agriculture.tools.0.label>
+  <PEMC_Tool_Agriculture.tools.1.label>лезвия</PEMC_Tool_Agriculture.tools.1.label>
+  <PEMC_Tool_Agriculture.tools.2.label>тело</PEMC_Tool_Agriculture.tools.2.label>
+
+  <PEMC_Tool_LeafBlower.label>листодув</PEMC_Tool_LeafBlower.label>
+  <PEMC_Tool_LeafBlower.description>Реактивный двигатель для самых ленивых уборщиков, который перемещает проблему в другое место. Шумит как космический корабль, но зато никаких граблей и швабр.</PEMC_Tool_LeafBlower.description>
+  <PEMC_Tool_LeafBlower.tools.0.label>рукоять</PEMC_Tool_LeafBlower.tools.0.label>
+  <PEMC_Tool_LeafBlower.tools.1.label>тычок</PEMC_Tool_LeafBlower.tools.1.label>
+
+  <PEMC_Tool_AngleGrinder.label>шлифмашина</PEMC_Tool_AngleGrinder.label>
+  <PEMC_Tool_AngleGrinder.description>Громкий убийца неровностей, превращающий все вокруг в пыльную бурю. Делает поверхности гладкими, а соседей — нервными.</PEMC_Tool_AngleGrinder.description>
+  <PEMC_Tool_AngleGrinder.tools.0.label>рукоять</PEMC_Tool_AngleGrinder.tools.0.label>
+  <PEMC_Tool_AngleGrinder.tools.1.label>диск</PEMC_Tool_AngleGrinder.tools.1.label>
+
+  <PEMC_Tool_SolderingIron.label>паяльник</PEMC_Tool_SolderingIron.label>
+  <PEMC_Tool_SolderingIron.description>Горячий карандаш электрика, пишущий проводящими чернилами. Соединяет контакты и оставляет характерный запах, который невозможно забыть.</PEMC_Tool_SolderingIron.description>
+  <PEMC_Tool_SolderingIron.tools.0.label>рукоять</PEMC_Tool_SolderingIron.tools.0.label>
+  <PEMC_Tool_SolderingIron.tools.1.label>жало</PEMC_Tool_SolderingIron.tools.1.label>
+  <PEMC_Tool_SolderingIron.tools.2.label>жало</PEMC_Tool_SolderingIron.tools.2.label>
+
+  <PEMC_Tool_ToolBox.label>ящик с инструментами</PEMC_Tool_ToolBox.label>
+  <PEMC_Tool_ToolBox.description>Портативный хаос, где каждый инструмент прячется от вас в самый нужный момент. Чем дольше ищешь, тем глубже он зарывается под отвертки.</PEMC_Tool_ToolBox.description>
+  <PEMC_Tool_ToolBox.tools.0.label>ящик</PEMC_Tool_ToolBox.tools.0.label>
+
+  <PEMC_Tool_Medbag.label>медицинская сумка</PEMC_Tool_Medbag.label>
+  <PEMC_Tool_Medbag.description>Походный госпиталь размером с сумку, хранящий ответы на все «ой» и «ай». Внутри бинты, пластыри и надежда, что вам не понадобится ничего серьёзнее.</PEMC_Tool_Medbag.description>
+  <PEMC_Tool_Medbag.tools.0.label>сумка</PEMC_Tool_Medbag.tools.0.label>
+
+  <PEMC_Tool_Scalpel.label>скальпель</PEMC_Tool_Scalpel.label>
+  <PEMC_Tool_Scalpel.description>Хирургическая точность в руках профессионала, опасная бритва в руках любителя. Режет так тонко, что материя даже не успевает понять, что её разделили.</PEMC_Tool_Scalpel.description>
+  <PEMC_Tool_Scalpel.tools.0.label>лезвие</PEMC_Tool_Scalpel.tools.0.label>
+
+  <PEMC_Tool_DuckTape.label>изолента</PEMC_Tool_DuckTape.label>
+  <PEMC_Tool_DuckTape.description>Серебряная надежда человечества, способная склеить все, кроме разбитого сердца. Если что-то шатается, скрипит или отваливается — она уже в пути, но заканчивается именно тогда, когда осталось доклеить последний сантиметр.</PEMC_Tool_DuckTape.description>
+  <PEMC_Tool_DuckTape.tools.0.label>изолента</PEMC_Tool_DuckTape.tools.0.label>
+  
+  <!-- spacer -->
+
+  <PEMC_Tool_PDA.label>КПК</PEMC_Tool_PDA.label>
+  <PEMC_Tool_PDA.description>Карманный всезнайка, который умнее вас, но тактичнее не показывает это. Отвечает на вопросы, рассчитывает глубину подземных залежей и иногда делает вид, что не слышал вашу предыдущую глупость.</PEMC_Tool_PDA.description>
+  <PEMC_Tool_PDA.tools.0.label>корпус</PEMC_Tool_PDA.tools.0.label>
+
+  <PEMC_Tool_Pan.label>умная сковорода</PEMC_Tool_Pan.label>
+  <PEMC_Tool_Pan.description>Кухонный гаджет с самомнением, который знает температуру лучше вас. Жарит яичницу, отслеживает состояние и одновременно напоминает о калориях после двойного стейка из муффало.</PEMC_Tool_Pan.description>
+  <PEMC_Tool_Pan.tools.0.label>сковорода</PEMC_Tool_Pan.tools.0.label>
+
+</LanguageData>

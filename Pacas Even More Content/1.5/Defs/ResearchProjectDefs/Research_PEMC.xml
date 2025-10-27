@@ -3,7 +3,7 @@
 
 	<ResearchProjectDef ParentName="HitechBase">
 		<defName>PEMC_Pyrochemistry</defName>
-		<label>Pyrochemistry</label>
+		<label>pyrochemistry</label>
 		<description>I don't want to set the world on fire...</description>
 		<baseCost>1800</baseCost>
 		<techLevel>Industrial</techLevel>
@@ -18,7 +18,7 @@
 
 	<ResearchProjectDef ParentName="HitechBase">
 		<defName>PEMC_Cryogenics</defName>
-		<label>Cryogenics</label>
+		<label>xryogenics</label>
 		<description>Winter is coming.</description>
 		<baseCost>1800</baseCost>
 		<techLevel>Industrial</techLevel>
@@ -33,7 +33,7 @@
 
 	<ResearchProjectDef ParentName="HitechMultiBase">
 		<defName>PEMC_BioWeapons</defName>
-		<label>Bio weapons</label>
+		<label>bio-weapons</label>
 		<description>A big cup of libertea to the sender. Made from sender.</description>
 		<baseCost>3000</baseCost>
 		<techLevel>Spacer</techLevel>
@@ -49,7 +49,7 @@
 
 	<ResearchProjectDef ParentName="HitechMultiBase">
 		<defName>PEMC_GMOPlants</defName>
-		<label>GMO Plants</label>
+		<label>GMO plants</label>
 		<description>Bigger. Better. Probably tastier.</description>
 		<baseCost>4500</baseCost>
 		<techLevel>Spacer</techLevel>

@@ -1,34 +1,39 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-    <Make_PEMC_FlameGreatSword.label>Сделать пылающий двуручный меч</Make_PEMC_FlameGreatSword.label>
+    <Make_PEMC_FlameGreatSword.label>сделать пылающий двуручный меч</Make_PEMC_FlameGreatSword.label>
     <Make_PEMC_FlameGreatSword.description>Сделать двуручный меч с лезвием, пылающим вечным огнем. Не забудьте найти подходящего донора сердца!</Make_PEMC_FlameGreatSword.description>
-    <Make_PEMC_FlameGreatSword.jobString>Делает пылающий двуручный меч.</Make_PEMC_FlameGreatSword.jobString>
+    <Make_PEMC_FlameGreatSword.jobString>делает пылающий двуручный меч.</Make_PEMC_FlameGreatSword.jobString>
 
-    <Make_PEMC_FlameKatana.label>Сделать пылающую катану</Make_PEMC_FlameKatana.label>
+    <Make_PEMC_FlameKatana.label>сделать пылающую катану</Make_PEMC_FlameKatana.label>
     <Make_PEMC_FlameKatana.description>Сделать пылающую катану с лезвием, пылающим вечным огнем. Не забудьте найти подходящего донора сердца!</Make_PEMC_FlameKatana.description>
-    <Make_PEMC_FlameKatana.jobString>Делает пылающую катану.</Make_PEMC_FlameKatana.jobString>
+    <Make_PEMC_FlameKatana.jobString>делает пылающую катану.</Make_PEMC_FlameKatana.jobString>
 
-    <Make_PEMC_FlameSpear.label>Сделать пылающее копье</Make_PEMC_FlameSpear.label>
+    <Make_PEMC_FlameSpear.label>сделать пылающее копье</Make_PEMC_FlameSpear.label>
     <Make_PEMC_FlameSpear.description>Сделать пылающее копье с наконечником, пылающим вечным огнем. Не забудьте найти подходящего донора сердца!</Make_PEMC_FlameSpear.description>
-    <Make_PEMC_FlameSpear.jobString>Делает пылающее копье.</Make_PEMC_FlameSpear.jobString>
+    <Make_PEMC_FlameSpear.jobString>делает пылающее копье.</Make_PEMC_FlameSpear.jobString>
 
-    <Make_PEMC_FrostGreataxe.label>Сделать ледяную секиру</Make_PEMC_FrostGreataxe.label>
+    <Make_PEMC_FrostGreataxe.label>сделать ледяную секиру</Make_PEMC_FrostGreataxe.label>
     <Make_PEMC_FrostGreataxe.description>Сделать ледяную секиру с лезвием, испускающим ледяное дыхание при каждом ударе. Не забудьте найти подходящего донора сердца!</Make_PEMC_FrostGreataxe.description>
-    <Make_PEMC_FrostGreataxe.jobString>Делает ледяную секиру.</Make_PEMC_FrostGreataxe.jobString>
+    <Make_PEMC_FrostGreataxe.jobString>делает ледяную секиру.</Make_PEMC_FrostGreataxe.jobString>
 
-    <Make_PEMC_FrostDagger.label>Сделать ледяной кинжал</Make_PEMC_FrostDagger.label>
+    <Make_PEMC_FrostDagger.label>сделать ледяной кинжал</Make_PEMC_FrostDagger.label>
     <Make_PEMC_FrostDagger.description>Сделать ледяной кинжал с лезвием, испускающим ледяное дыхание при каждом ударе. Не забудьте найти подходящего донора сердца!</Make_PEMC_FrostDagger.description>
-    <Make_PEMC_FrostDagger.jobString>Делает ледяной кинжал.</Make_PEMC_FrostDagger.jobString>
+    <Make_PEMC_FrostDagger.jobString>делает ледяной кинжал.</Make_PEMC_FrostDagger.jobString>
 
-    <Make_PEMC_FrostRapier.label>Сделать ледяную рапиру</Make_PEMC_FrostRapier.label>
+    <Make_PEMC_FrostRapier.label>сделать ледяную рапиру</Make_PEMC_FrostRapier.label>
     <Make_PEMC_FrostRapier.description>Сделать ледяную рапиру с лезвием, испускающим ледяное дыхание при каждом ударе. Не забудьте найти подходящего донора сердца!</Make_PEMC_FrostRapier.description>
-    <Make_PEMC_FrostRapier.jobString>Делает ледяную рапиру.</Make_PEMC_FrostRapier.jobString>
+    <Make_PEMC_FrostRapier.jobString>делает ледяную рапиру.</Make_PEMC_FrostRapier.jobString>
 
 
     
-    <Build_AcidScourge.label>Собрать кислотный бич</Build_AcidScourge.label>
+    <Build_AcidScourge.label>собрать кислотный бич</Build_AcidScourge.label>
     <Build_AcidScourge.description>Пистолет-пулемет, стреляющий ядовитыми дротиками с кислотными наконечниками небольшими очередями. Небольшой урон, средняя дальность, средняя скорострельность, но его особые патроны пробивают броню кислотой и отравляют врагов.</Build_AcidScourge.description>
     <Build_AcidScourge.jobString>Собирает кислотный бич</Build_AcidScourge.jobString>
 
+    
+    <MakeLubricant.label>изготовить смазку WD-40</MakeLubricant.label>
+    <MakeLubricant.description>Создать смазку из простых компонентов. Получается 20 единиц.</MakeLubricant.description>
+    <MakeLubricant.jobString>изготавливает смазку.</MakeLubricant.jobString>
+    
 </LanguageData>

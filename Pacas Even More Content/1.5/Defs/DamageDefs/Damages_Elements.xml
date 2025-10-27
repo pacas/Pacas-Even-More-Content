@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-	<DamageDef ParentName="CutBase">
-		<defName>FrostBurn</defName>
-		<label>Frost burn</label>
-		<additionalHediffs>
-			<li>
-				<hediff>FrostBurn</hediff>
-				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-			</li>
-		</additionalHediffs>
-	</DamageDef>
-    
     <DamageDef ParentName="CutBase">
-		<defName>FireBurn</defName>
-		<label>Fire burn</label>
-		<additionalHediffs>
-			<li>
-				<hediff>FireBurn</hediff>
-				<severityPerDamageDealt>0.01</severityPerDamageDealt>
-			</li>
-		</additionalHediffs>
-	</DamageDef>
-  
- 
- <DamageDef>
-   <defName>LubricantSpray</defName>
-    <label>lubricant spray</label>
-    <workerClass>DamageWorker_Extinguish</workerClass>
-    <canInterruptJobs>false</canInterruptJobs>
-    <makesBlood>false</makesBlood>
-    <defaultDamage>999999</defaultDamage>
-    <hediff>LubricantSoaked</hediff>
-    <explosionCellFleck>BlastExtinguisher</explosionCellFleck>
-    <explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
-    <soundExplosion>Explosion_Stun</soundExplosion>
-    <harmsHealth>false</harmsHealth>
-    <combatLogRules>Damage_Extinguish</combatLogRules>
-    <consideredHelpful>true</consideredHelpful>
-  </DamageDef>
+        <defName>FrostBurn</defName>
+        <label>Frost burn</label>
+        <additionalHediffs>
+            <li>
+                <hediff>FrostBurn</hediff>
+                <severityPerDamageDealt>0.01</severityPerDamageDealt>
+            </li>
+        </additionalHediffs>
+    </DamageDef>
+
+    <DamageDef ParentName="CutBase">
+        <defName>FireBurn</defName>
+        <label>Fire burn</label>
+        <additionalHediffs>
+            <li>
+                <hediff>FireBurn</hediff>
+                <severityPerDamageDealt>0.01</severityPerDamageDealt>
+            </li>
+        </additionalHediffs>
+    </DamageDef>
+
+
+    <DamageDef>
+        <defName>LubricantSpray</defName>
+        <label>lubricant spray</label>
+        <workerClass>DamageWorker_Extinguish</workerClass>
+        <canInterruptJobs>false</canInterruptJobs>
+        <makesBlood>false</makesBlood>
+        <defaultDamage>999999</defaultDamage>
+        <hediff>LubricantSoaked</hediff>
+        <explosionCellFleck>BlastExtinguisher</explosionCellFleck>
+        <explosionColorEdge>(1, 1, 1, 0.05)</explosionColorEdge>
+        <soundExplosion>Explosion_Stun</soundExplosion>
+        <harmsHealth>false</harmsHealth>
+        <combatLogRules>Damage_Extinguish</combatLogRules>
+        <consideredHelpful>true</consideredHelpful>
+    </DamageDef>
 </Defs>

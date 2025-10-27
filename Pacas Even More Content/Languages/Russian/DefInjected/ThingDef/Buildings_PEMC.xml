@@ -27,4 +27,7 @@
     <RubberRefiner_Frame.label>переработчик резины (постройка)</RubberRefiner_Frame.label>
     <RubberRefiner_Frame.description>Перерабатывает химическое топливо в резину.</RubberRefiner_Frame.description>
 
+    <GeneBank_Primitive.label>примитивный генный банк</GeneBank_Primitive.label>
+    <GeneBank_Primitive.description>Место для хранения генных пакетов. Это строение может хранить один генный пакет и не связывается с генным сборщиком.</GeneBank_Primitive.description>
+
 </LanguageData>

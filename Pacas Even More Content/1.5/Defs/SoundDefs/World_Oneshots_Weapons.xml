@@ -1,40 +1,38 @@
-﻿<?xml version="1.0" encoding="utf-8"?><Defs>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
 
- 
-  <SoundDef>
-    <defName>Interact_Lubricant</defName>  
-    <context>MapOnly</context>   
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Folder">
-            <clipPath>Son</clipPath>
-          </li>
-        </grains>      
-        <volumeRange>50~75</volumeRange>      
-        <pitchRange>0.9788043~1.084783</pitchRange>
-      </li>
-    </subSounds>
-  </SoundDef>
+    <SoundDef>
+        <defName>Interact_Lubricant</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipPath>Son</clipPath>
+                    </li>
+                </grains>
+                <volumeRange>50~75</volumeRange>
+                <pitchRange>0.9788043~1.084783</pitchRange>
+            </li>
+        </subSounds>
+    </SoundDef>
 
-  <SoundDef>
-    <defName>ThrowLubricant</defName>  
-    <context>MapOnly</context>   
-    <maxSimultaneous>1</maxSimultaneous>  
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Boy</clipFolderPath>
-          </li>
-        </grains>      
-        <volumeRange>25~25</volumeRange>      
-        <pitchRange>0.9788043~1.063587</pitchRange>
-      </li>
-    </subSounds>
-  </SoundDef>
-
-
+    <SoundDef>
+        <defName>ThrowLubricant</defName>
+        <context>MapOnly</context>
+        <maxSimultaneous>1</maxSimultaneous>
+        <subSounds>
+            <li>
+                <grains>
+                    <li Class="AudioGrain_Folder">
+                        <clipFolderPath>Boy</clipFolderPath>
+                    </li>
+                </grains>
+                <volumeRange>25~25</volumeRange>
+                <pitchRange>0.9788043~1.063587</pitchRange>
+            </li>
+        </subSounds>
+    </SoundDef>
 
 </Defs>

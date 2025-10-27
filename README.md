@@ -10,6 +10,10 @@ This mod adds:
 * Reinforced bridges
 * New oil refiners
 * Crafting fossils and crystals
+* New rituals
+* More tools
+* More apparel
+* Stupid jokes in descriptions
 
 <br>
 Больше контента, больше!
@@ -23,3 +27,7 @@ This mod adds:
 * Усиленные мосты
 * Новые переработчики нефти
 * Крафт окаменелостей и кристаллов
+* Новые ритуалы
+* Больше инструментов
+* Больше одежды
+* Глупые шутки в описаниях

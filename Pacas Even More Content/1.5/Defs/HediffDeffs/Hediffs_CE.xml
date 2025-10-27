@@ -1,60 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-	<!-- Global -->
+    <!-- Global -->
 
-	<HediffDef>
-		<defName>LubricantSoaked</defName>
-		<label>Liquid lubricant-soaked</label>
-		<description>Soaked in Liquid lubricant</description>
-		<hediffClass>HediffWithComps</hediffClass>
-		<comps>
-			<li Class="HediffCompProperties_SeverityPerDay">
-				<severityPerDay>-12</severityPerDay>
-			</li>
-			<!--<li Class="CombatExtended.HediffCompProperties_Prometheum" />-->
-			<li Class="HediffCompProperties_DisappearsOnDeath" />
-		</comps>
-		<stages>
-			<li>
-				<minSeverity>0.2</minSeverity>
-				<label>minor</label>
-				<statOffsets>
-					<Flammability>0.4</Flammability>
-					<MoveSpeed>-0.2</MoveSpeed>
-					<MeleeHitChance>0.2</MeleeHitChance>
-				</statOffsets>
-			</li>
-			<li>
-				<minSeverity>0.40</minSeverity>
-				<label>dripping</label>
-				<statOffsets>
-					<Flammability>0.8</Flammability>
-					<MoveSpeed>-0.3</MoveSpeed>
-					<MeleeHitChance>0.4</MeleeHitChance>
-				</statOffsets>
-			</li>
-			<li>
-				<minSeverity>0.6</minSeverity>
-				<label>soaked</label>
-				<statOffsets>
-					<Flammability>1.2</Flammability>
-					<MoveSpeed>-0.4</MoveSpeed>
-					<MeleeHitChance>0.8</MeleeHitChance>
-				</statOffsets>
-			</li>
-			<li>
-				<minSeverity>0.8</minSeverity>
-				<label>drenched</label>
-				<statOffsets>
-					<Flammability>1.5</Flammability>
-					<MoveSpeed>-0.5</MoveSpeed>
-					<MeleeHitChance>1</MeleeHitChance>
-					<MeleeDodgeChance>0.1</MeleeDodgeChance>
-				</statOffsets>
-			</li>
-		</stages>
-	</HediffDef>
+    <HediffDef>
+        <defName>LubricantSoaked</defName>
+        <label>Liquid lubricant</label>
+        <description>Soaked in liquid lubricant</description>
+        <hediffClass>HediffWithComps</hediffClass>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-12</severityPerDay>
+            </li>
+            <!--<li Class="CombatExtended.HediffCompProperties_Prometheum" />-->
+            <li Class="HediffCompProperties_DisappearsOnDeath"/>
+        </comps>
+        <stages>
+            <li>
+                <minSeverity>0.2</minSeverity>
+                <label>minor</label>
+                <statOffsets>
+                    <Flammability>0.4</Flammability>
+                    <MoveSpeed>-0.2</MoveSpeed>
+                    <MeleeHitChance>0.2</MeleeHitChance>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.40</minSeverity>
+                <label>dripping</label>
+                <statOffsets>
+                    <Flammability>0.8</Flammability>
+                    <MoveSpeed>-0.3</MoveSpeed>
+                    <MeleeHitChance>0.4</MeleeHitChance>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.6</minSeverity>
+                <label>soaked</label>
+                <statOffsets>
+                    <Flammability>1.2</Flammability>
+                    <MoveSpeed>-0.4</MoveSpeed>
+                    <MeleeHitChance>0.8</MeleeHitChance>
+                </statOffsets>
+            </li>
+            <li>
+                <minSeverity>0.8</minSeverity>
+                <label>drenched</label>
+                <statOffsets>
+                    <Flammability>1.5</Flammability>
+                    <MoveSpeed>-0.5</MoveSpeed>
+                    <MeleeHitChance>1</MeleeHitChance>
+                    <MeleeDodgeChance>0.1</MeleeDodgeChance>
+                </statOffsets>
+            </li>
+        </stages>
+    </HediffDef>
 
 
 </Defs>

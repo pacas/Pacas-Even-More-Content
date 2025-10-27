@@ -5,7 +5,7 @@
 
 	<ThingDef ParentName="WeaponIndustrialBase">
 		<defName>PEMC_FlameGreatSword</defName>
-		<label>Blazing Greatsword</label>
+		<label>blazing greatsword</label>
 		<description>This two-handed sword, with a blade blazing with eternal fire, is created from the heart of a phoenix. Each blow not only smites the enemy, but also leaves burns, thanks to the heat emanating from the sword.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/PEMC_Flame_Greatsword</texPath>
@@ -100,7 +100,7 @@
       
     <ThingDef ParentName="WeaponIndustrialBase">
 		<defName>PEMC_FlameKatana</defName>
-		<label>Blazing Katana</label>
+		<label>blazing katana</label>
 		<description>This light katana, with a blade blazing with eternal fire, is created from the heart of a phoenix. Each blow not only smites the enemy, but also leaves burns, thanks to the heat emanating from the katana.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/PEMC_Flame_Katana</texPath>
@@ -195,7 +195,7 @@
     
     <ThingDef ParentName="WeaponIndustrialBase">
 		<defName>PEMC_FlameSpear</defName>
-		<label>Blazing Spear</label>
+		<label>blazing spear</label>
 		<description>This spear, with a tip blazing with eternal fire, is created from the heart of a phoenix. Each blow not only smites the enemy, but also leaves burns, thanks to the heat emanating from the tip.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/PEMC_Flame_Spear</texPath>
@@ -293,7 +293,7 @@
 
 	<ThingDef ParentName="WeaponIndustrialBase">
 		<defName>PEMC_FrostGreataxe</defName>
-		<label>Frost Greataxe</label>
+		<label>frost greataxe</label>
 		<description>A greataxe with a blade made from the heart of an ice dragon, it emits icy breath with every strike. Sharp and cold, it leaves icy wounds on the body of enemies.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/PEMC_Frost_Greataxe</texPath>
@@ -376,7 +376,7 @@
     
 	<ThingDef ParentName="WeaponIndustrialBase">
 		<defName>PEMC_FrostDagger</defName>
-		<label>Frost Dagger</label>
+		<label>frost dagger</label>
 		<description>A dagger with a blade made from the heart of an ice dragon, it emits icy breath with every strike. Sharp and cold, it leaves icy wounds on the body of enemies.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/PEMC_Frost_Dagger</texPath>
@@ -472,7 +472,7 @@
     
     <ThingDef ParentName="WeaponIndustrialBase">
 		<defName>PEMC_FrostRapier</defName>
-		<label>Frost Rapier</label>
+		<label>frost rapier</label>
 		<description>A rapier with a blade made from the heart of an ice dragon, it emits icy breath with every strike. Sharp and cold, it leaves icy wounds on the body of enemies.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Melee/PEMC_Frost_Rapier</texPath>

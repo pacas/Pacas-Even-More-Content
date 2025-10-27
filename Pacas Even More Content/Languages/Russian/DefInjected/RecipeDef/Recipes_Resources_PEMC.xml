@@ -9,8 +9,4 @@
     <MakeLivingFirePowder.description>Измельчить сердце Феникса в пламенный порошок. Производится 20.</MakeLivingFirePowder.description>
     <MakeLivingFirePowder.jobString>Измельчает сердце Феникса в пламенный порошок.</MakeLivingFirePowder.jobString>
 
-     <MakeLubricant.label>Изготовить смазку WD-40 Жидкую</MakeLubricant.label>
-     <MakeLubricant.description>Создать смазку из простых компонентов. Получается 20 единиц.</MakeLubricant.description>
-     <MakeLubricant.jobString>Изготавливает смазку.</MakeLubricant.jobString>
-
 </LanguageData>
