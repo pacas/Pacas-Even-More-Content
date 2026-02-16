@@ -72,7 +72,7 @@
 			</li>
 		</ingredients>
 		<products>
-			<Gun_UMP45Gun>1</Gun_UMP45Gun>
+			<PEMC_Gun_Acid_Scourge>1</PEMC_Gun_Acid_Scourge>
 		</products>
 		<fixedIngredientFilter>
 			<thingDefs>
