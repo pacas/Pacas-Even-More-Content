@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+    <Operation Class="PatchOperationSequence">
+        <operations>
+            <li Class="PatchOperationReplace">
+                <xpath>Defs/IncidentDef[defName = "FeenixPasses" or defName = "IcicatPasses"]/minRefireDays</xpath>
+                <value>
+                    <minRefireDays>21</minRefireDays>
+                </value>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/IncidentDef[defName = "FeenixPasses" or defName = "IcicatPasses"]/earliestDay</xpath>
+            </li>
+
+            
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                    defName = "TFJ_Tool_Woodcutting_Handaxe" or 
+                    defName="TFJ_Tool_Mining_Pickaxe" or
+                    defName="TFJ_Tool_Hoe" or
+                    defName="TFJ_Tool_Sickle" or
+                    defName="TFJ_Tool_Paxe" or
+                    defName="TFJ_Tool_Building_Hammer"
+                    ]/recipeMaker/recipeUsers/li[text()="CraftingSpot"]</xpath>
+            </li>
+
+            <li Class="PatchOperationRemove">
+                <xpath>Defs/ThingDef[
+                    defName = "TFJ_Tool_Woodcutting_Handaxe" or
+                    defName = "TFJ_Tool_Hoe" or
+                    defName = "TFJ_Tool_Sickle" or
+                    defName = "TFJ_Tool_Paxe" or
+                    defName="TFJ_Tool_Mining_Pickaxe" or
+                    defName="TFJ_Tool_Building_Hammer"
+                    ]/stuffCategories/li[text()="Woody" or text()="Stony"]</xpath>
+            </li>
+        </operations>
+    </Operation>
+</Patch>

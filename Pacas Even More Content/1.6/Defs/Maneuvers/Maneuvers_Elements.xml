@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    
+    <!--Frost-->
+    
+	<ToolCapacityDef>
+		<defName>FrostBurn</defName>
+	</ToolCapacityDef>
+
+	<ManeuverDef>
+		<defName>FrostBurn</defName>
+		<requiredCapacity>FrostBurn</requiredCapacity>
+		<verb Class="CombatExtended.VerbPropertiesCE">
+			<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
+			<meleeDamageDef>FrostBurn</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>	
+
+
+    <!--Fire-->
+    
+	<ToolCapacityDef>
+		<defName>FireBurn</defName>
+	</ToolCapacityDef>
+
+	<ManeuverDef>
+		<defName>FireBurn</defName>
+		<requiredCapacity>FireBurn</requiredCapacity>
+		<verb Class="CombatExtended.VerbPropertiesCE">
+			<verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass>
+			<meleeDamageDef>FireBurn</meleeDamageDef>
+		</verb>
+		<logEntryDef>MeleeAttack</logEntryDef>
+		<combatLogRulesHit>Maneuver_Slash_MeleeHit</combatLogRulesHit>
+		<combatLogRulesDeflect>Maneuver_Slash_MeleeDeflect</combatLogRulesDeflect>
+		<combatLogRulesMiss>Maneuver_Slash_MeleeMiss</combatLogRulesMiss>
+		<combatLogRulesDodge>Maneuver_Slash_MeleeDodge</combatLogRulesDodge>
+	</ManeuverDef>
+
+</Defs>
