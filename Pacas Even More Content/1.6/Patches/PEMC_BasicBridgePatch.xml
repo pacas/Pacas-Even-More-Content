@@ -1,5 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
+    <Operation Class="PatchOperationConditional">
+        <xpath>Defs/TerrainDef[@Name="WaterDeepBase"]/changeable</xpath>
+        <match Class="PatchOperationRemove">
+            <xpath>Defs/TerrainDef[@Name="WaterDeepBase"]/changeable</xpath>
+        </match>
+    </Operation>
+    <Operation Class="SK.PatchOperationReplaceExtended">
+        <xpath>Defs/TerrainDef[defName="Bridge"]</xpath>
+        <value>
+            <label>wooden bridge</label>
+            <color>(108,78,55)</color>
+        </value>
+    </Operation>
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/TerrainDef[defName="Bridge"]/texturePath</xpath>
         <value>
