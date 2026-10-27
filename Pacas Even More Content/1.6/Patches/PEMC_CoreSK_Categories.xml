@@ -15,21 +15,9 @@
             </li>
             
             <li Class="PatchOperationInsert">
-                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_PowerSafety"]/defNames/li[text()="Building_RTCircuitBreaker"]</xpath>
+                <xpath>Defs/ArchitectSense.DesignationSubCategoryDef[defName="SubCategory_PowerSafety"]/defNames/li[text()="Building_RTCircuitBreakerBig"]</xpath>
                 <value>
                     <li>Building_RTCircuitBreakerExtra</li>
-                </value>
-            </li>
-
-            <!--todo-->
-            <li Class="PatchOperationInsert">
-                <xpath>Defs/ThingCategoryDef[defName="SurvivalToolsNeolithic"]</xpath>
-                <value>
-                    <ThingCategoryDef>
-                        <defName>SurvivalToolsPrimitive</defName>
-                        <label>primitive tools</label>
-                        <parent>SurvivalTools</parent>
-                    </ThingCategoryDef>
                 </value>
             </li>
         </operations>
